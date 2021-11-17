@@ -1,0 +1,60 @@
+
+.text-justify {
+    text-align: justify;
+  }
+
+
+.contact-row{
+    padding: 4px 0 4px 0;
+    text-decoration: none;
+}
+
+.contact-row>h4>a{
+    text-decoration: none;
+}
+
+
+.contact-row>h4>a>p{
+    display: inline-block;
+    padding-left:8px;
+    vertical-align: middle;
+}
+
+
+.cooperation-logo{
+    padding: 8px;
+    margin: 8px;
+}
+
+.text-color-es {
+    color: #50B6E3 !important;
+}
+
+.text-color-es:hover {
+    color: #59cbfd !important;
+}
+
+.bg-color-es{
+    background-color: #50B6E3 !important;
+}
+
+.bg-color-es:hover{
+    background-color: #59cbfd!important;
+}
+
+.danger-hover:hover{
+    background-color: #e15361!important;
+}
+
+.link-hover::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #50B6E3;
+    transition: width .3s;
+}
+
+.link-hover:hover::after {
+    width: 100%;
+}

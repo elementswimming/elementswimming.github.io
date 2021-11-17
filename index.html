@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=5.0"/>
-    <meta name="description" content=""/>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 maximum-scale=5.0"
+    />
+    <meta name="description" content="" />
     <title></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
 
     <style>
       .bd-placeholder-img {
@@ -24,17 +27,172 @@
           font-size: 3.5rem;
         }
       }
-
     </style>
-    <link rel="preload" href="static/general.css" as="style"/>
+    <link rel="preload" href="static/general.css" as="style" />
+    <link rel="preload" href="static/headers.css" as="style" />
+    <link rel="preload" href="static/heroes.css" as="style" />
+    <link href="static/general.css" rel="stylesheet" />
+    <link href="static/headers.css" rel="stylesheet" />
+    <link href="static/heroes.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <img src="static/images/ELEMENT_SWIMMING_Logo_ZAKLADNI_Verze_RGB_BEZ_POZADI jen kolečka.png" class="bi me-2" width="60" height="40"/>
+          <span class="fs-4">Element swimming</span>
+        </a>
+  
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#home" class="nav-link bg-color-es text-white" aria-current="page">Domů</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link link-hover text-dark">O nás</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link link-hover text-dark">Služby</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link link-hover text-dark">Kontakt</a></li>
+        </ul>
+      </header>
+    </div>
+    
+    <!-- Home -->
+    <div id="home" class="px-5 pt-4 my-4 text-center border-bottom" style="padding-bottom: 5vh;">
+      <h3 class="fw-bold">Skoč do bazénu s námi, po hlavě</h3>
+      <h1 class="display-4 fw-bold">Plavecký trénink 21. století </h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Moderní pojetí tréninkového procesu, podložené aktuálními trendy a pod dohledem vysokoškolsky vzdělaných profesionálu v daném oboru. 
+          </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <a href="#contact"><button type="button" class="btn bg-color-es btn-lg px-4 me-sm-3 text-white">Rezervovat trénink</button></a>
+          <a href="#contact"><button type="button" class="btn btn-lg px-4 bg-danger text-white danger-hover">1. trénink zdarma</button></a>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 50vh;">
+        <div class="container px-5">
+          <img src="static/images/pexels-jim-de-ramos-1263425.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="900" height="700" loading="lazy">
+        </div>
+      </div>
+    </div>
 
-    <link href="static/general.css" rel="stylesheet"/>
+    <!-- About -->
+    <div id="about" class="container col-xxl-9 px-4 py-5 border-bottom">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">O nás</h1>
+          <p class="lead text-justify">Organizace Element swimming se vznikem v roce 2019 má být i mimo jiné nápomocná k rozvoji českého plaveckého sportu.
+            Pilotním projektem Element swimming je stroj Power system 1.0. Tento stroj se již používá napříč zahraničními kluby, avšak do České republiky došel až nyní s naší iniciativou. 
+            Zařazení již zmiňovaného stroje do tréninkového procesu má sloužit trenérům a jejich svěřencům k nalezení dalších efektivních tréninkových metod, které slouží k rozvoji výkonnosti sportovce.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Cooperation -->
+    <div class="container col-xxl-9 px-4 py-5 border-bottom" id="cooperation">
+      <h2 class="pb-5 text-black-50">Spolupráce</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5 py-5 align-items-center">
+        <div class="col d-flex align-items-start cooperation-logo">
+          <img src="static/images/logo-klub-plaveckych-sportu-ostrava-small.jpg" class="bi me-2" width="200"/>
+        </div>
+        <div class="col d-flex align-items-start cooperation-logo">
+          <img src="static/images/logo_horizontal.jpg" class="bi me-2" width="200"/>
+        </div>
+      </div>
+    </div>
 
-</head>
-<body>
-test
+    <!-- Services -->
+    <div id="services" class="container col-xxl-9 px-4 py-5 border-bottom">
+      <div class="row flex-lg-row align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Služby</h1>
+          <p class="lead text-justify">INDIVIDUALNÍ LEKCE
+            Lekce probíhají s certifikovanými TRENÉRY ČSPS (Český svaz plaveckých sportů). Přidanou hodnotou, kterou Element Swimming nabízí je fakt, že všichni naši 
+            trenéři si prošli dlouhodobým rozvojem v procesu sportovní (plavecké) přípravy. Mnozí z nich jsou bývalí reprezentanti a také medailisté z národních šampionátů. 
+            Toto dělá z naších trenérů špičky ve svém oboru co do teorie i praxe.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Contact -->
+    <div id="contact" class="container col-xxl-9 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="static/images/logo_blue_bezpozadi.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Kontakt</h1>
+          <p class="lead text-justify">
+            Máš zájem o první lekci, chceš zarezervovat termín se svým trenérem a nebo chceš řešit něco jiného?
+            <br>
+            <br>
+            Není problém, stačí se nám ozvat na kontakty viz níže:
+            <br>
+            <br>
+            <div class="contact-row">
+              <h4><a href="tel:+420 725 956 042" class="text-color-es">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+              </svg> 
+              <p>+420 725 956 042</p>
+            </a></h4>
+            </div>
+            <div class="contact-row ">
+              <h4><a href="https://www.instagram.com/elementswimming_cz" class="text-color-es">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg>
+                <p>elementswimming_cz</p>
+              </a></h4>
+              </div>
+              <div class="contact-row">
+                <h4><a href="mailto:elementswimming@gmail.com" class="text-color-es">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                  </svg>
+                  <p>elementswimming@gmail.com</p>
+                </a></h4>
+                </div>
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          </div>
+        </div>
+      </div>
+    </div>
 
-<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <!-- Footer -->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted">&copy; 2021 Element swimming, Inc</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <img src="static/images/ELEMENT_SWIMMING_Logo_ZAKLADNI_Verze_RGB_BEZ_POZADI jen kolečka.png" class="bi me-2" width="60" height="40"/>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Domů</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">O nás</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Služby</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Kontakt</a></li>
+        </ul>
+      </footer>
+    </div>
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+
+<!-- Credits -
+  https://getbootstrap.com/
+  https://codepen.io/martinwolf/pen/eNNdme
+
+  ->
 </html>
