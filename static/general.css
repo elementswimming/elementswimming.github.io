@@ -73,7 +73,7 @@
 }
 
 blue{
-    color:#50B6E3;
+    color:#50B6E3 !important;
 }
 
 .feature-icon{
@@ -90,7 +90,7 @@ blue{
 }
 
 .no-decoration{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .btn-no-style{
@@ -100,4 +100,12 @@ blue{
     border: none!important;
     width: 100%!important;
     height: 100%!important;
+    background-color: transparent!important;
+    border-radius: 1rem;
+}
+
+.btn-no-style:hover{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.2);
+    background-color: transparent!important;
+    transition: .3s;
 }
