@@ -17,7 +17,6 @@
 .contact-row>h4>a>p{
     display: inline-block;
     padding-left:8px;
-    vertical-align: middle;
 }
 
 
@@ -42,9 +41,14 @@
     background-color: #59cbfd!important;
 }
 
-.danger-hover:hover{
-    background-color: #e15361!important;
+.bg-green{
+    background-color:#52cc52!important;
 }
+
+.bg-green:hover{
+    background-color: #57d957!important;
+}
+
 
 .link-hover::after {
     content: '';
@@ -62,4 +66,21 @@
 .fill { 
     min-height: 100%;
     height: 100%;
+}
+
+blue{
+    color:#50B6E3;
+}
+
+.feature-icon{
+    height:64px;
+    width: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.feature-icon:hover{
+    background-color: #50B6E3 !important;
 }
