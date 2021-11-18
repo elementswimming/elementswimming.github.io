@@ -31,9 +31,12 @@
     <link rel="preload" href="static/general.css" as="style" />
     <link rel="preload" href="static/headers.css" as="style" />
     <link rel="preload" href="static/heroes.css" as="style" />
+    <link rel="preload" href="static/features.css" as="style" />
     <link href="static/general.css" rel="stylesheet" />
     <link href="static/headers.css" rel="stylesheet" />
     <link href="static/heroes.css" rel="stylesheet" />
+    <link href="static/features.css" rel="stylesheet" />
+    
   </head>
   <body>
     <!-- Header -->
@@ -80,7 +83,7 @@
     <div id="about" class="container col-xxl-10 px-4 py-5 border-bottom">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="static/images/DSC_0025.webp" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          <img src="static/images/pan_trener.jpg" class="d-block mx-lg-auto img-fluid border rounded-3 shadow-lg" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
         </div>
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold lh-1 mb-3">O nás</h1>
@@ -102,6 +105,9 @@
         <div class="col d-flex align-items-start cooperation-logo">
           <img src="static/images/logo_horizontal.jpg" class="bi me-2" width="200"/>
         </div>
+        <div class="col d-flex align-items-start cooperation-logo">
+          <img src="static/images/logo-csps-nove-1.jpg" class="bi me-2" width="200"/>
+        </div>
       </div>
     </div>
 
@@ -110,35 +116,85 @@
       <h1 class="display-4 py-3 fw-bold text-center">Služby</h1>
       <div class="col-xxl-12 mx-auto">
         <p class="lead mb-4 text-justify">
-          INDIVIDUALNÍ LEKCE
-          Lekce probíhají s certifikovanými TRENÉRY ČSPS (Český svaz plaveckých sportů). Přidanou hodnotou, kterou Element Swimming nabízí je fakt, že všichni naši 
-          trenéři si prošli dlouhodobým rozvojem v procesu sportovní (plavecké) přípravy. Mnozí z nich jsou bývalí reprezentanti a také medailisté z národních šampionátů. 
-          Toto dělá z naších trenérů špičky ve svém oboru co do teorie i praxe.
+          <span class="fw-bold">Individuální lekce</span> probíhají s certifikovanými Trenéry ČSPS (Český svaz plaveckých sportů). Přidanou hodnotou, kterou Element Swimming nabízí je fakt, že <span class="fw-bold text-color-es-plain">všichni naši 
+          trenéři</span> si prošli dlouhodobým rozvojem v procesu sportovní (plavecké) přípravy. Mnozí z nich <span class="fw-bold text-color-es-plain">jsou</span> bývalí reprezentanti a také medailisté z národních šampionátů. 
+          Toto dělá z naších trenérů <span class="fw-bold text-color-es-plain">špičky ve svém oboru co do teorie i praxe.</span> Naše služby poskytujeme v následujích městech.
           </p>
       </div>
+  
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <button class="btn-no-style" data-bs-toggle="modal" data-bs-target="#PragueModal">
+          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('static/images/pexels-jeshootscom-442583x.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold no-decoration text-start">Praha</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </button>
+        <div class="modal fade" id="PragueModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Praha</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+  
+        <div class="col">
+          <button class="btn-no-style">
+          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('static/images/spilberk-g2c39b6daf_1920.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start">Brno</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </button>
+        </div>
+  
+        <div class="col">
+          <button class="btn-no-style">
+          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('static/images/476_10-lo18-jpg.jpeg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start">Ostrava</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                </li>
+              </ul>
+            </div>
+          </div>
+          </button>
+        </div>
+    </div>
     </div>
 
     <!-- Services footer -->
-    <div class="container col-xxl-10 px-4 py-5 border-bottom">
+    <div class="container col-xxl-10 px-4 py-3 border-bottom">
     <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
       <div class="feature col">
-        <div class="feature-icon bg-color-es bg-gradient">
-          <img src="static/images/icons/lightbulb-regular.svg" alt="bulb" width="36" height="36" fill="white">
-        </div>
         <h2 class="text-muted py-3">Moderní přístup</h2>
         <p>Sportovní trénink v oblasti plavání založený na moderních poznatcích ze světa plavání a podpořený mnohaletou praxí</p>
       </div>
       <div class="feature col">
-        <div class="feature-icon bg-color-es bg-gradient">
-          <img src="static/images/icons/chart-line-solid.svg" alt="chart" width="36" height="36" fill="white">
-        </div>
         <h2 class="text-muted py-3">Udržitelné výsledky</h2>
         <p>Respektujeme Vaši individualitu na základě které, nastavíme nejvhodnější typ tréninku pro dlouhodobě udržitelné výsledky</p>
       </div>
       <div class="feature col">
-        <div class="feature-icon bg-color-es bg-gradient">
-          <img src="static/images/icons/handshake-regular.svg" alt="mail" width="36" height="36" fill="white">
-        </div>
         <h2 class="text-muted py-3">Flexibilita a nezávislost</h2>
         <p>Působíme ve čtyřech městech v ČR a proto není takřka problém vyhovět vaším individuálním požadavkům </p>
       </div>
@@ -148,7 +204,7 @@
     <!-- Contact -->
     <div id="contact" class="container col-xxl-10 px-4 py-5">
       <div class="row flex-lg-row align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
+        <div class="col-10 col-sm-8 col-lg-6 p-5">
           <img src="static/images/logo_blue_bezpozadi.png" class="d-block mx-lg-auto img-fluid" alt="es_logo" width="700" height="500" loading="lazy">
         </div>
         <div class="col-lg-6">
@@ -210,5 +266,6 @@
   https://getbootstrap.com/
   Icons: https://fontawesome.com/
   Navbar hover effect: https://codepen.io/martinwolf/pen/eNNdme
+  Ostrava foto: Adam Popelka
   -->
 </html>
