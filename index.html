@@ -60,7 +60,7 @@
     <div id="home" class="container my-5">
       <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
         <div class="col-lg-5 p-3 p-lg-5 pt-lg-3">
-          <h3 class="fw-bold">Skoč s námi po hlavě do bazénu</h3>
+          <h3 class="fw-bold">Do bazénu? Jedině s námi!</h3>
           <h1 class="display-4 fw-bold lh-1 py-3">Plavecký trénink 21. století</h1>
           <p class="lead">Moderní pojetí tréninkového procesu, podložené aktuálními trendy a pod dohledem vysokoškolsky vzdělaných profesionálu v daném oboru</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3 pt-5">
@@ -116,13 +116,13 @@
       <h1 class="display-4 py-3 fw-bold text-center">Služby</h1>
       <div class="col-xxl-12 mx-auto">
         <p class="lead mb-4 text-justify">
-          Individuální lekce probíhají s certifikovanými Trenéry ČSPS (Český svaz plaveckých sportů). Přidanou hodnotou, kterou Element Swimming nabízí je fakt, že všichni naši 
-          trenéři si prošli dlouhodobým rozvojem v procesu sportovní (plavecké) přípravy. Mnozí z nich json bývalí reprezentanti a také medailisté z národních šampionátů. 
-          Toto dělá z naších trenérů špičky ve svém oboru co do teorie i praxe. Naše služby poskytujeme v následujích městech.
+          Individuální lekce probíhají s certifikovanými trenéry <i>ČSPS (Český svaz plaveckých sportů)</i>. Každý náš trenér absolvoval dlouhodobou plaveckou přípravu. Právě díky ní, může své poznatky předávat dál naším klientům. 
+          To dělá z trenérů Element swimming špičky ve svém oboru. Jsme organizace, která Vám jako jedna z mála nabízí plavecké služby napříč celou republikou. A to konkrétně v Praze, Brně, Ostravě a Olomouci. 
+          Z našich služeb můžete rovněž využít i tzv. Online coaching.
           </p>
       </div>
   
-      <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div class="col">
           <button class="btn-no-style" data-bs-toggle="modal" data-bs-target="#PragueModal">
           <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('static/images/pexels-jeshootscom-442583x.png');">
@@ -138,7 +138,7 @@
         </div>
   
         <div class="col">
-          <button class="btn-no-style">
+          <button class="btn-no-style" data-bs-toggle="modal" data-bs-target="#BrnoModal">
           <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('static/images/spilberk-g2c39b6daf_1920.jpg');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start">Brno</h2>
@@ -176,7 +176,20 @@
               </ul>
             </div>
           </div>
-          
+          </button>
+        </div>
+
+        <div class="col">
+          <button class="btn-no-style">
+          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('static/images/pexels-pixabay-257897.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start">Online</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                </li>
+              </ul>
+            </div>
+          </div>
           </button>
         </div>
     </div>
@@ -248,6 +261,7 @@
         <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
           <img src="static/images/logo_basic.png" class="bi me-2" width="60" height="40"/>
         </a>
+        
     
         <ul class="nav col-md-4 justify-content-end">
           <li class="nav-item"><a href="#home" class="nav-link px-2 text-muted">Domů</a></li>
@@ -259,19 +273,22 @@
     </div>
 
     <!-- Services Modals  -->
-    <div class="modal fade" id="PragueModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-xl modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
+    <div class="modal fade" id="PragueModal" tabindex="-1" aria-labelledby="PragueModal" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content px-2">
+          <div class="modal-header text-center">
+            <h2 class="modal-title text-muted wh-100" id="PragueModal">Praha - ceník a služby</h2>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 pt-2 pb-3">
+            <div class="row row-cols-1 align-items-stretch pb-3">
             <div class="col">
-              <div class="card card-cover h-100 overflow-hidden text-white bg-color-es rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-                <div class="d-flex flex-column h-75 p-5 pb-3 text-white text-shadow-1">
-                  <h2 class="pt-2 mt-2 mb-4 display-6 lh-1 fw-bold">Program 1.1</h2>
-                  <h2 class="mb-4 lh-1 fw-bold">800,- Kč/hod</h2>
+              <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                <div class="d-flex flex-column h-50 p-5 pb-3 text-white text-shadow-1">
+                  <div class="d-flex justify-content-between flex-wrap align-items-center">
+                  <h2 class="mb-3 display-6 lh-1 fw-bold pr-2">Program 1.1</h2>
+                  <h2 class="mb-3 lh-1 fw-bold">800,- Kč/hod</h2>
+                </div>
                   <ul class="d-flex list-unstyled mt-auto">
                     <li class="d-flex align-items-center me-3">
                       <small>Lekce plavání, kdy se trenér věnuje pouze Vám.</small>
@@ -281,39 +298,119 @@
               </div>
             </div>
             <div class="col">
-              <div class="card card-cover h-100 overflow-hidden text-white bg-color-es rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-                <div class="d-flex flex-column h-75 p-5 pb-3 text-white text-shadow-1">
-                  <h2 class="pt-2 mt-2 mb-4 display-6 lh-1 fw-bold">Program 1.2</h2>
+              <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                <div class="d-flex flex-column h-50 p-5 pb-3 text-white text-shadow-1">
+                  <div class="d-flex justify-content-between flex-wrap align-items-center">
+                  <h2 class="mb-4 display-6 lh-1 fw-bold">Program 1.2</h2>
                   <h2 class="mb-4 lh-1 fw-bold">900,- Kč/hod</h2>
+                </div>
                   <ul class="d-flex list-unstyled mt-auto">
                     <li class="d-flex align-items-center me-3">
-                      <small>*Lekce plavání, kdy se trenér věnuje nanejvýš 2 osobám. </small>
+                      <small>Lekce plavání, kdy se trenér věnuje nanejvýš 2 osobám.</small>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card card-cover h-100 overflow-hidden text-white bg-color-es rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-                <div class="d-flex flex-column h-75 p-5 pb-3 text-white text-shadow-1">
-                  <h2 class="pt-2 mt-2 mb-4 display-6 lh-1 fw-bold">Program 1.3</h2>
+              <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                <div class="d-flex flex-column h-50 p-5 pb-3 text-white text-shadow-1">
+                  <div class="d-flex justify-content-between flex-wrap align-items-center">
+                  <h2 class="mb-4 display-6 lh-1 fw-bold">Program 1.3</h2>
                   <h2 class="mb-4 lh-1 fw-bold">1000,- Kč/hod</h2>
+                </div>
                   <ul class="d-flex list-unstyled mt-auto">
                     <li class="d-flex align-items-center me-3">
-                      <small>*Plavecké lekce pro 3 - 4 osoby. </small>
+                      <small>Plavecké lekce pro 3 - 4 osoby.</small>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card card-cover h-100 overflow-hidden text-white bg-color-es rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-                <div class="d-flex flex-column h-75 p-5 pb-3 text-white text-shadow-1">
-                  <h2 class="pt-2 mt-2 mb-4 display-6 lh-1 fw-bold">Program 1.5</h2>
+              <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                <div class="d-flex flex-column h-50 p-5 pb-3 text-white text-shadow-1">
+                  <div class="d-flex justify-content-between flex-wrap align-items-center">
+                  <h2 class="mb-4 display-6 lh-1 fw-bold">Program 1.5</h2>
                   <h2 class="mb-4 lh-1 fw-bold">1250,- Kč/hod</h2>
+                </div>
                   <ul class="d-flex list-unstyled mt-auto">
                     <li class="d-flex align-items-center me-3">
-                      <small>*Plavecké lekce pro 5 a více osob.</small>
+                      <small>Plavecké lekce pro 5 a více osob.</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="BrnoModal" tabindex="-1" aria-labelledby="BrnoModal" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content px-2">
+          <div class="modal-header text-center">
+            <h2 class="modal-title text-muted wh-100" id="BrnoModal">Brno - ceník a služby</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row row-cols-1 align-items-stretch pb-3">
+            <div class="col">
+              <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                <div class="d-flex flex-column h-50 p-5 pb-3 text-white text-shadow-1">
+                  <div class="d-flex justify-content-between flex-wrap align-items-center">
+                  <h2 class="mb-3 display-6 lh-1 fw-bold pr-2">Program 1.1</h2>
+                  <h2 class="mb-3 lh-1 fw-bold">600,- Kč/hod</h2>
+                </div>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="d-flex align-items-center me-3">
+                      <small>Lekce plavání, kdy se trenér věnuje pouze Vám.</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                <div class="d-flex flex-column h-50 p-5 pb-3 text-white text-shadow-1">
+                  <div class="d-flex justify-content-between flex-wrap align-items-center">
+                  <h2 class="mb-4 display-6 lh-1 fw-bold">Program 1.2</h2>
+                  <h2 class="mb-4 lh-1 fw-bold">700,- Kč/hod</h2>
+                </div>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="d-flex align-items-center me-3">
+                      <small>Lekce plavání, kdy se trenér věnuje nanejvýš 2 osobám.</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                <div class="d-flex flex-column h-50 p-5 pb-3 text-white text-shadow-1">
+                  <div class="d-flex justify-content-between flex-wrap align-items-center">
+                  <h2 class="mb-4 display-6 lh-1 fw-bold">Program 1.3</h2>
+                  <h2 class="mb-4 lh-1 fw-bold">750,- Kč/hod</h2>
+                </div>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="d-flex align-items-center me-3">
+                      <small>Plavecké lekce pro 3 - 4 osoby.</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                <div class="d-flex flex-column h-50 p-5 pb-3 text-white text-shadow-1">
+                  <div class="d-flex justify-content-between flex-wrap align-items-center">
+                  <h2 class="mb-4 display-6 lh-1 fw-bold">Program 1.5</h2>
+                  <h2 class="mb-4 lh-1 fw-bold">1000,- Kč/hod</h2>
+                </div>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="d-flex align-items-center me-3">
+                      <small>Plavecké lekce pro 5 a více osob.</small>
                     </li>
                   </ul>
                 </div>
@@ -325,6 +422,11 @@
     </div>
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $('#BrnoModal').modal('toggle');
+      $('#BrnoModal').modal('show');
+      $('#BrnoModal').modal('hide');
+    </script>
   </body>
 
 <!-- Credits 
