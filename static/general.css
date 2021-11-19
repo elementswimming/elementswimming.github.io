@@ -133,3 +133,11 @@ blue{
 .modal-body{
     padding-bottom: 0!important;
 }
+
+.light-gray{
+    color: rgb(200,200,200);
+}
+
+.light-gray{
+    color: rgb(200,200,200)!important;
+}
