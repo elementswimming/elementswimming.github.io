@@ -1,3 +1,6 @@
+header, .header-container{
+    background-color: white;
+}
 
 .text-justify {
     text-align: justify;
@@ -141,3 +144,22 @@ blue{
 .light-gray{
     color: rgb(200,200,200)!important;
 }
+
+
+.smart-scroll{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+  }
+  .scrolled-down{
+     transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+     transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
+
+  .pt-8{
+      padding-top: 4.7rem;
+  }
