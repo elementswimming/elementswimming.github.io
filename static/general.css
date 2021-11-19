@@ -108,4 +108,13 @@ blue{
     box-shadow: 0 1rem 3rem rgba(0,0,0,0.25)!important;
     background-color: transparent!important;
     transition: .3s!important;
+    transform: scale(1.02);
+}
+
+.modal-open .container-fluid, .modal-open  .container {
+    -webkit-filter: blur(2px) grayscale(10%);
+}
+
+.modal-content{
+    background: rgba(255,255,255,0.925)
 }
