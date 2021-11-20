@@ -46,6 +46,7 @@ header, .header-container{
 
 .bg-color-es:hover{
     background-color: #59cbfd!important;
+    transition: ease-in 0.3;
 }
 
 .bg-green{
