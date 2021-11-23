@@ -176,14 +176,9 @@ blue{
     color: #59cbfd !important;
 }
 
-.pxh-5{
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
 
-.pyh-5{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+.img-fluid{
+    max-width: 82%!important;
 }
 
 .footer-nav{
@@ -191,15 +186,6 @@ blue{
 }
 
 @media (max-width: 576px){
-    .pxh-5{
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    
-    .pyh-5{
-        padding-top: 0rem;
-        padding-bottom: 0rem;
-    }
 
     .footer-nav{
         justify-content: center;
