@@ -26,8 +26,14 @@ header, .header-container{
 .cooperation-logo{
     padding: 8px;
     margin: 8px;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
+.cooperation-logo:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
 .text-color-es-plain {
     color: #50B6E3 !important;
 }
