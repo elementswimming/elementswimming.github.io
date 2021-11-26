@@ -184,17 +184,46 @@ blue{
 }
 
 
-.img-fluid{
-    max-width: 82%!important;
-}
-
 .footer-nav{
     justify-content: flex-end!important;
+}
+
+@media (min-width: 1200px){
+
+    .img-fluid{
+        max-width: 90%!important;
+    }
 }
 
 @media (max-width: 576px){
 
     .footer-nav{
         justify-content: center;
+    }
+
+    h4{
+        font-size: 1.2rem!important;
+    }
+    .contact-row h4 svg{
+        height: 28px!important;
+        width: 28px!important;
+    }
+
+    .py-5{
+        padding-top: 2rem!important;
+        padding-bottom: 2rem!important;
+    }
+
+    .p-5{
+        padding: 2rem 2rem 0rem 2rem!important;
+    }
+    
+    .py-4{
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+    }
+    .py-3{
+        padding-top: 0.5rem!important;
+        padding-bottom: 0.5rem!important;
     }
 }
