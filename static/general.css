@@ -222,6 +222,9 @@ blue{
         height: 28px!important;
         width: 28px!important;
     }
+    footer{
+        padding-bottom: 0!important;
+    }
 
     .py-5{
         padding-top: 2rem!important;
@@ -240,4 +243,17 @@ blue{
         padding-top: 0.5rem!important;
         padding-bottom: 0.5rem!important;
     }
+
+    .my-4{
+        margin-top: 0.5rem!important;
+        margin-bottom: 0!important;
+    }
+    footer p{
+        padding-top: 1rem!important;
+    }
+
+    .buttons a button{
+        width: 215px!important;
+    }
+    
 }
