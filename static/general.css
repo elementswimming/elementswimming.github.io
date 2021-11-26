@@ -255,5 +255,9 @@ blue{
     .buttons a button{
         width: 215px!important;
     }
+
+    header > a{
+        padding-right: 1rem!important
+    }
     
 }
