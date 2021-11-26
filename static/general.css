@@ -188,10 +188,24 @@ blue{
     justify-content: flex-end!important;
 }
 
+@media (max-width: 1399px){
+
+    .buttons{
+        flex-direction: column!important;
+    }
+}
+
 @media (min-width: 1200px){
 
     .img-fluid{
         max-width: 90%!important;
+    }
+}
+
+@media (max-width: 992px){
+
+    .buttons{
+        flex-direction: row!important;
     }
 }
 
