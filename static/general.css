@@ -272,3 +272,9 @@ blue{
     width: auto;
     height: auto;
 }
+
+.display-cust{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
