@@ -304,7 +304,7 @@ blue {
 }
 
 .card div ul li {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem !important;
 }
 
 .modal-body img {
