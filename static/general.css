@@ -220,9 +220,12 @@ blue {
 }
 
 @media (max-width: 576px) {
+    footer .nav {
+        justify-content: center !important;
+    }
 
-    .footer-nav {
-        justify-content: center;
+    footer > p{
+        text-align: center!important;
     }
 
     .fake-h4 {
@@ -310,4 +313,28 @@ blue {
 .modal-body img {
     height: 100% !important;
     width: 100% !important;
+}
+
+.modal-body-cookies-consent{
+    padding: 1rem!important;
+    text-align: justify!important;
+}
+
+.cookies-consent{
+    font-size: 0.7rem!important;
+    color:#7b838a!important;
+}
+
+.cookies-consent a{
+    font-weight: 600!important;
+    text-decoration: none!important;
+}
+
+.cookie-consent-title{
+    font-size:2rem!important;
+}
+
+.cookie-section{
+    padding-top:0.5rem!important;
+    font-size:1.5rem!important;
 }
