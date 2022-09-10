@@ -342,3 +342,11 @@ blue {
 .font-italic{
     font-style: italic!important;
 }
+
+label{
+    padding-bottom: 0.5rem;
+}
+
+.textarea{
+    min-height: 200px;
+}
