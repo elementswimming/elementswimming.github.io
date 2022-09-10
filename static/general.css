@@ -350,3 +350,11 @@ label{
 .textarea{
     min-height: 200px!important;
 }
+
+input::placeholder{
+    font-size: 0.8rem!important;
+}
+
+textarea::placeholder{
+    font-size: 0.8rem!important;
+}
