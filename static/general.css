@@ -363,10 +363,14 @@ blue {
 
 .carousel-control-next{
     width: 5%!important;
+    background-color: white!important;
+    opacity: 1!important;
 }
 
 .carousel-control-prev{
     width: 5%!important;
+    background-color: white!important;
+    opacity: 1!important;
 }
 .carousel-control-next-icon{
     filter: invert(100%)!important;
