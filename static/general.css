@@ -101,6 +101,15 @@ blue {
     border-radius: 12px;
 }
 
+.reference-icon{
+    height: 96px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    bottom:50%;
+}
 .feature-icon:hover {
     background-color: #50B6E3 !important;
 }
@@ -341,4 +350,33 @@ blue {
 
 .font-italic{
     font-style: italic!important;
+}
+
+.reference-text{
+    font-size: 0.8rem!important;
+
+}
+
+.carousel-caption{
+    color: black!important;
+}
+
+.carousel-control-next{
+    width: 5%!important;
+}
+
+.carousel-control-prev{
+    width: 5%!important;
+}
+.carousel-control-next-icon{
+    filter: invert(100%)!important;
+}
+
+.carousel-control-prev-icon{
+    filter: invert(100%)!important;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #6c757d!important;
+
 }
