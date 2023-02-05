@@ -401,3 +401,6 @@ blue {
       width: 40%;
   }
 }
+.small{
+    font-size: 0.75rem!important;
+}
