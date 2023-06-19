@@ -214,13 +214,6 @@ blue {
     }
 }
 
-@media (min-width: 1200px) {
-
-    .img-fluid {
-        max-width: 90% !important;
-    }
-}
-
 @media (max-width: 992px) {
 
     .buttons {
