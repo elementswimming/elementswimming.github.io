@@ -6,6 +6,9 @@ header, .header-container {
     text-align: justify;
 }
 
+.ul {
+    margin-bottom: none!important;
+}
 
 .contact-row {
     padding: 4px 0 4px 0;
@@ -50,6 +53,7 @@ header, .header-container {
 
 .text-color-es:hover {
     color: #59cbfd !important;
+    transition: 0.3s;
 }
 
 .bg-color-es {
@@ -58,7 +62,7 @@ header, .header-container {
 
 .bg-color-es:hover {
     background-color: #59cbfd !important;
-    transition: ease-in 0.3;
+    transition: ease-in 0.2s;
 }
 
 .bg-green {
@@ -67,6 +71,7 @@ header, .header-container {
 
 .bg-green:hover {
     background-color: #37d200 !important;
+    transition: ease-in 0.2s;
 }
 
 .bg-voucher {
@@ -75,6 +80,7 @@ header, .header-container {
 
 .bg-voucher:hover {
     background-color: #ffc805 !important;
+    transition: 0.3s;
 }
 
 .link-hover::after {
@@ -119,6 +125,7 @@ blue {
 }
 .feature-icon:hover {
     background-color: #50B6E3 !important;
+    transition: 0.3s;
 }
 
 .no-decoration {
@@ -147,6 +154,9 @@ blue {
     -webkit-filter: blur(2px) grayscale(10%);
 }
 
+.modal-header {
+    border-bottom: none !important;
+}
 .modal-content {
     background: rgba(255, 255, 255, 0.925)
 }
@@ -164,6 +174,7 @@ blue {
 }
 
 .modal-body {
+    padding: 1.5rem !important;
     padding-bottom: 0 !important;
 }
 
@@ -315,6 +326,9 @@ blue {
     line-height: 1.2;
 }
 
+.card {
+    border: none !important;
+}
 .card div ul li {
     margin-bottom: 1rem !important;
 }
