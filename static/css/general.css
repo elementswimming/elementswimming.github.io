@@ -62,13 +62,20 @@ header, .header-container {
 }
 
 .bg-green {
-    background-color: #52cc52 !important;
+    background-color: #19c800 !important;
 }
 
 .bg-green:hover {
-    background-color: #57d957 !important;
+    background-color: #37d200 !important;
 }
 
+.bg-voucher {
+    background-color: #fabe00 !important;
+}
+
+.bg-voucher:hover {
+    background-color: #ffc805 !important;
+}
 
 .link-hover::after {
     content: '';

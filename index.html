@@ -107,6 +107,11 @@
                         Rezervovat trénink
                     </button>
                 </a>
+                <a href="#">
+                    <button type="button" class="btn bg-voucher btn-lg px-4 me-sm-3 text-white" data-bs-toggle="modal" data-bs-target="#VoucherModal">
+                        Voucher
+                    </button>
+                </a>
             </div>
         </div>
         <div class="col-lg-7 p-0">
@@ -765,6 +770,57 @@
     </div>
 </div>
 
+<div class="modal fade" id="VoucherModal" tabindex="-1" aria-labelledby="VoucherModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content px-2">
+            <div class="modal-header text-center">
+                <h2 class="modal-title text-muted wh-100">Dárek k narozeninám, či k blížícím se Vánocům?</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row row-cols-1 align-items-stretch pb-3">
+                    <div class="col">
+                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
+                            <div class="d-flex flex-column h-50 ps-4 pe-3 pt-4 pb-3 text-white text-shadow-1">
+                                <div class="d-flex justify-content-between flex-wrap align-items-center">
+                                    <p class="mb-4 display-6 lh-1 fw-bold">Voucher</p>
+                                </div>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="d-flex align-items-center">
+                                        <small>
+                                            Nadělte svým sportovně založeným blízkým, známým, kamarádům pod stromeček zážitek.
+                                            U nás totiž můžete zvolit cokoliv, co vám padne do oka. Voucher lze využít jak pro
+                                            vámi zvolený počet individuálních lekcí nebo na rozbor plavecké techniky
+                                            (náš tip - nejvíce využívaná možnost). Ideální volba i pro páry.
+                                            <br><br>
+                                            Pro vystavení Voucheru nás neváhejte kontaktovat viz kontakt na stránkách.
+                                        </small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-90 overflow-hidden text-white rounded-5 shadow-lg">
+                            <img src="static/images/main/voucher.webp" class="d-block mx-lg-auto img-fluid img-fluid-cust border rounded-5 shadow-lg section-image"
+                                 title="Voucher" alt="Voucher">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 align-items-stretch pb-3 px-4 g-2">
+                <h6 class="modal-title text-muted wh-100 px-3">
+                    <span class="small">
+                        **Pravidla pro vouchery všeho druhu -  nevyčerpané vouchery se berou jako
+                        propadlé tehdy, kdy se klient se zakoupeným voucherem neozve vzhledem k datu
+                        platnosti voucheru - voucher se proto bere jako neplatný/propadlý.
+                    </span>
+                </h6>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="modal fade" id="OstravaModal" tabindex="-1" aria-labelledby="OstravaModal" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content px-2">
@@ -1012,7 +1068,7 @@
   Navbar scroll effect:
     https://bootstrap-menu.com/detail-autohide.html
   
-  Services photos: 
+  Service section photos:
     Prague - Photo by JESHOOTS.com from Pexels
     Brno - https://pixabay.com/images/id-4902615/
     Ostrava - Adam Popelka (https://www.facebook.com/lovecokamziku/)
