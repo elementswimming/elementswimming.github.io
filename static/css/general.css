@@ -156,9 +156,15 @@ blue {
 
 .modal-header {
     border-bottom: none !important;
+    justify-content: end !important;
+    padding: 1rem 0.5rem!important;
+}
+.modal-header .btn-close {
+    padding: 0.25rem!important;
 }
 .modal-content {
-    background: rgba(255, 255, 255, 0.925)
+    background: rgba(255, 255, 255, 0.925);
+    border-radius: 1rem!important;
 }
 
 .h-90 {
@@ -176,6 +182,7 @@ blue {
 .modal-body {
     padding: 1.5rem !important;
     padding-bottom: 0 !important;
+    padding-top: 0 !important;
 }
 
 .light-gray {
