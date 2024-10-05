@@ -74,15 +74,6 @@ header, .header-container {
     transition: ease-in 0.2s;
 }
 
-.bg-voucher {
-    background-color: #fabe00 !important;
-}
-
-.bg-voucher:hover {
-    background-color: #ffc805 !important;
-    transition: 0.3s;
-}
-
 .link-hover::after {
     content: '';
     display: block;
