@@ -344,6 +344,7 @@ blue {
 .cookies-consent{
     font-size: 0.7rem!important;
     color:#7b838a!important;
+    display: block!important;
 }
 
 .cookies-consent a{
