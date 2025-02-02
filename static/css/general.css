@@ -336,30 +336,6 @@ blue {
     width: 100% !important;
 }
 
-.modal-body-cookies-consent{
-    padding: 1rem!important;
-    text-align: justify!important;
-}
-
-.cookies-consent{
-    font-size: 0.7rem!important;
-    color:#7b838a!important;
-    display: block!important;
-}
-
-.cookies-consent a{
-    font-weight: 600!important;
-    text-decoration: none!important;
-}
-
-.cookie-consent-title{
-    font-size:2rem!important;
-}
-
-.cookie-section{
-    padding-top:0.5rem!important;
-    font-size:1.5rem!important;
-}
 
 .font-italic{
     font-style: italic!important;
