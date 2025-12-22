@@ -382,3 +382,26 @@ a {
 .bi {
     color: black !important;
 }
+
+/* Contact Items */
+.contact-item {
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    margin-left: -1rem;
+    /* Offset padding */
+}
+
+.contact-item:hover {
+    background: rgba(80, 182, 227, 0.1);
+    transform: translateX(10px);
+}
+
+.contact-item:hover i {
+    color: var(--ocean-blue) !important;
+}
+
+.contact-item:hover span {
+    color: var(--ocean-blue);
+    font-weight: 600;
+}
