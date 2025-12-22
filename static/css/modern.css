@@ -1,7 +1,8 @@
 :root {
     --ocean-dark: #0f172a;
-    --ocean-blue: #1e3a8a;
-    --ocean-light: #3b82f6;
+    --ocean-blue: #50B6E3;
+    --ocean-light: #50B6E3;
+    /* Unified to brand blue for borders */
     --teal-accent: #06b6d4;
     --glass-bg: rgba(255, 255, 255, 0.7);
     --glass-border: rgba(255, 255, 255, 0.5);
@@ -9,7 +10,38 @@
     --text-main: #334155;
     --text-heading: #0f172a;
     --gradient-main: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%);
-    --gradient-accent: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
+    --gradient-accent: linear-gradient(135deg, #50B6E3 0%, #2998C6 100%);
+    /* Adjusted gradient */
+
+    /* Bootstrap Overrides */
+    --bs-primary: #50B6E3;
+    --bs-primary-rgb: 80, 182, 227;
+    --bs-link-color: #50B6E3;
+    --bs-link-hover-color: #2998C6;
+}
+
+/* Bootstrap Class Overrides */
+.text-primary {
+    color: #50B6E3 !important;
+}
+
+.bg-primary {
+    background-color: #50B6E3 !important;
+}
+
+.btn-primary {
+    background-color: #50B6E3 !important;
+    border-color: #50B6E3 !important;
+}
+
+.btn-outline-primary {
+    color: #50B6E3 !important;
+    border-color: #50B6E3 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #50B6E3 !important;
+    color: white !important;
 }
 
 body {
@@ -50,7 +82,8 @@ h6 {
 
 .glass-card:hover {
     box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.2);
-    border-color: var(--ocean-light);
+    border-color: var(--ocean-blue);
+    /* Updated to brand blue */
 }
 
 /* Navbar */
@@ -105,7 +138,7 @@ h6 {
     border-radius: 50px;
     font-weight: 700;
     letter-spacing: 0.03em;
-    box-shadow: 0 4px 15px rgba(14, 165, 233, 0.3);
+    box-shadow: 0 4px 15px rgba(80, 182, 227, 0.3);
     transition: all 0.3s ease;
     text-transform: uppercase;
     font-size: 0.9rem;
@@ -113,14 +146,15 @@ h6 {
 
 .btn-modern:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(14, 165, 233, 0.4);
+    box-shadow: 0 8px 25px rgba(80, 182, 227, 0.4);
     color: white;
-    background: linear-gradient(135deg, #0284c7 0%, #1d4ed8 100%);
+    background: linear-gradient(135deg, #2998C6 0%, #1e3a8a 100%);
 }
 
 .btn-modern-outline {
     background: transparent;
-    border: 2px solid var(--ocean-light);
+    border: 2px solid var(--ocean-blue);
+    /* Updated to brand blue */
     color: var(--ocean-blue);
     padding: 10px 30px;
     border-radius: 50px;
@@ -129,9 +163,10 @@ h6 {
 }
 
 .btn-modern-outline:hover {
-    background: var(--ocean-light);
+    background: var(--ocean-blue);
+    /* Updated to brand blue */
     color: white;
-    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.2);
+    box-shadow: 0 4px 15px rgba(80, 182, 227, 0.2);
 }
 
 /* Hero Section */
@@ -164,7 +199,8 @@ h6 {
 .feature-box:hover {
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(30, 58, 138, 0.08);
-    border-color: var(--ocean-light);
+    border-color: var(--ocean-blue);
+    /* Updated to brand blue */
 }
 
 .feature-icon-wrapper {
@@ -207,7 +243,7 @@ h6 {
 
 .service-card:hover {
     transform: scale(1.03);
-    box-shadow: 0 20px 40px rgba(14, 165, 233, 0.25);
+    box-shadow: 0 20px 40px rgba(80, 182, 227, 0.25);
     z-index: 10;
 }
 
@@ -225,7 +261,7 @@ h6 {
 }
 
 .service-card:hover .service-overlay {
-    background: linear-gradient(to top, rgba(37, 99, 235, 0.9) 0%, rgba(37, 99, 235, 0.3) 100%);
+    background: linear-gradient(to top, rgba(80, 182, 227, 0.9) 0%, rgba(80, 182, 227, 0.3) 100%);
 }
 
 /* Review Carousel */
@@ -263,7 +299,7 @@ h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 2rem;
-    background: var(--gradient-accent);
+    background: black;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -304,8 +340,6 @@ h6 {
 .price-tag {
     font-weight: 800;
     font-size: 1.25rem;
-    color: var(--ocean-blue);
-    background: #f0f9ff;
     padding: 0.5rem 1rem;
     border-radius: 12px;
     display: inline-block;
@@ -339,4 +373,12 @@ h6 {
     padding-top: 3rem;
     padding-bottom: 2rem;
     margin-top: 4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bi {
+    color: black !important;
 }
