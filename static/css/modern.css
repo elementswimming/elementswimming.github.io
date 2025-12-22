@@ -115,30 +115,18 @@ h1.display-3 {
     color: var(--text-heading) !important;
     position: relative;
     padding: 0.5rem 1rem !important;
-    transition: color 0.3s;
-}
-
-.nav-link::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 3px;
-    bottom: 0;
-    left: 50%;
-    background: var(--gradient-accent);
     transition: all 0.3s ease;
-    border-radius: 2px;
-    transform: translateX(-50%);
+    border-radius: 12px;
+    /* Added for pill shape */
 }
 
-.nav-link:hover::after,
-.nav-link.active::after {
-    width: 80%;
-}
+/* Removed Underline ::after styles */
 
 .nav-link:hover,
 .nav-link.active {
     color: var(--ocean-blue) !important;
+    background: rgba(80, 182, 227, 0.1);
+    /* Contact-style background */
 }
 
 /* Buttons */
@@ -422,6 +410,33 @@ a {
 .contact-item:hover span {
     color: var(--ocean-blue);
     font-weight: 600;
+}
+
+/* Modern Language Switcher */
+/* Modern Language Switcher */
+.lang-switch {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: none;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 800;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    color: var(--text-heading);
+}
+
+.lang-switch i {
+    font-size: 1rem;
+    margin-right: 6px;
+    transition: transform 0.4s ease;
+}
+
+.lang-switch:hover i {
+    transform: rotate(180deg);
 }
 
 /* Mobile Optimization */
