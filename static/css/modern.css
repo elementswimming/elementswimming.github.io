@@ -63,6 +63,11 @@ h6 {
     letter-spacing: -0.02em;
 }
 
+h1.display-3 {
+    font-size: 4rem;
+    /* Increased size */
+}
+
 /* Glassmorphism Utilities */
 .glass-panel {
     background: var(--glass-bg);
