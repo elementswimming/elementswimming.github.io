@@ -676,3 +676,30 @@ a {
         height: 250px;
     }
 }
+
+.navbar-brand {
+    /* Removed letter-spacing to handle it individually */
+}
+
+.brand-element {
+    font-size: 1.5rem;
+    font-weight: 400;
+    /* Thinner/Normal */
+    letter-spacing: 0.15em;
+    color: black;
+    text-transform: uppercase;
+}
+
+.brand-swimming {
+    font-size: 1.5rem;
+    font-weight: 800;
+    /* Bold */
+    letter-spacing: 0.05em;
+    color: white;
+    background: black;
+    padding: 2px 4px;
+    text-transform: uppercase;
+    line-height: 1;
+    border-radius: 4px;
+    display: inline-block;
+}
