@@ -13,6 +13,15 @@
     --gradient-accent: linear-gradient(135deg, #50B6E3 0%, #2998C6 100%);
     /* Adjusted gradient */
 
+    /* Unified Shadows */
+    --ocean-shadow-color: 31, 38, 135;
+    --shadow-sm: 0 4px 12px 0 rgba(var(--ocean-shadow-color), 0.1);
+    --shadow-md: 0 8px 32px 0 rgba(var(--ocean-shadow-color), 0.15);
+    /* Standard glass shadow */
+    --shadow-lg: 0 20px 50px 0 rgba(var(--ocean-shadow-color), 0.2);
+
+    --glass-shadow: var(--shadow-md);
+
     /* Bootstrap Overrides */
     --bs-primary: #50B6E3;
     --bs-primary-rgb: 80, 182, 227;
@@ -84,11 +93,13 @@ h1.display-3 {
     border: 1px solid var(--glass-border);
     box-shadow: var(--glass-shadow);
     border-radius: 36px;
+    padding: 2.5rem;
+    /* Standardized spacious padding */
 }
 
 .glass-card {
     backdrop-filter: blur(8px);
-    border-radius: 36px;
+    border-radius: 16px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -102,12 +113,53 @@ h1.display-3 {
 .navbar-custom {
     background: rgba(255, 255, 255, 0.85) !important;
     backdrop-filter: blur(16px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 0 0 24px 24px;
-    margin-top: 0 !important;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    /* Unified Shadow & Radius */
+    box-shadow: var(--shadow-sm);
+    border-radius: 24px !important;
+
+    /* Spacing from top */
+    left: 50% !important;
+    top: 1rem !important;
+    transform: translateX(-50%) !important;
+
+    /* Default Width (Mobile/Tablet) matching container padding */
+    width: calc(100% - 1.5rem) !important;
+}
+
+/* Fix Smart Scroll Conflict with Centered Navbar */
+.navbar-custom.scrolled-down {
+    transform: translateX(-50%) translateY(-150%) !important;
+    /* Hide upwards completely */
+}
+
+.navbar-custom.scrolled-up {
+    transform: translateX(-50%) translateY(0) !important;
+    /* Show at original Y */
+}
+
+/* Enforce consistent internal alignment matching sections */
+.navbar-custom .container-xl,
+.navbar-custom .container-fluid {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+}
+
+/* Responsive constraints matching container-xl content width */
+@media (min-width: 1200px) {
+    .navbar-custom {
+        max-width: 1116px;
+        /* 1140px - 24px gutter */
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .navbar-custom {
+        max-width: 1296px;
+        /* 1320px - 24px gutter */
+        width: 100% !important;
+    }
 }
 
 .nav-link {
@@ -175,8 +227,9 @@ h1.display-3 {
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(10px);
     border-radius: 36px;
-    padding: 3rem;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+    padding: 2.5rem;
+    /* Matched to glass-panel */
+    box-shadow: var(--shadow-lg);
 }
 
 .brand-gradient {
@@ -199,7 +252,7 @@ h1.display-3 {
 
 .feature-box:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(30, 58, 138, 0.08);
+    box-shadow: var(--shadow-lg);
     border-color: var(--ocean-blue);
     /* Updated to brand blue */
 }
@@ -238,13 +291,13 @@ h1.display-3 {
     overflow: hidden;
     position: relative;
     height: 300px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-md);
     transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .service-card:hover {
     transform: scale(1.03);
-    box-shadow: 0 20px 40px rgba(80, 182, 227, 0.25);
+    box-shadow: var(--shadow-lg);
     z-index: 10;
 }
 
@@ -270,7 +323,10 @@ h1.display-3 {
     background: #fff;
     border-radius: 30px;
     padding: 3rem;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    border-radius: 30px;
+    padding: 3rem;
+    box-shadow: var(--shadow-md);
 }
 
 .blockquote-custom {
@@ -294,7 +350,7 @@ h1.display-3 {
     backdrop-filter: blur(24px);
     -webkit-backdrop-filter: blur(24px);
     border: 1px solid rgba(255, 255, 255, 0.6);
-    box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.25);
+    box-shadow: var(--shadow-lg);
     border-radius: 36px;
     padding: 1rem;
 }
@@ -448,12 +504,14 @@ a {
 @media (max-width: 991px) {
     .navbar-collapse {
         background: rgba(255, 255, 255, 0.98);
-        backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
         padding: 1.5rem;
         border-radius: 24px;
         margin-top: 1rem;
-        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        border-radius: 24px;
+        margin-top: 1rem;
+        box-shadow: var(--shadow-lg);
         border: 1px solid rgba(255, 255, 255, 0.5);
         max-height: 80vh;
         overflow-y: auto;
@@ -682,12 +740,8 @@ a {
     }
 }
 
-.navbar-brand {
-    /* Removed letter-spacing to handle it individually */
-}
-
 .brand-element {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 400;
     /* Thinner/Normal */
     letter-spacing: 0.15em;
@@ -697,7 +751,7 @@ a {
 }
 
 .brand-swimming {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 800;
     /* Bold */
     letter-spacing: 0.05em;
