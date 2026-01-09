@@ -194,6 +194,11 @@ h1.display-3 {
     transition: all 0.3s ease;
     text-transform: uppercase;
     font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.25rem;
+    /* Enforce consistent height matching icon buttons */
 }
 
 .btn-modern:hover {
@@ -212,6 +217,11 @@ h1.display-3 {
     border-radius: 50px;
     font-weight: 700;
     transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.25rem;
+    /* Enforce consistent height */
 }
 
 .btn-modern-outline:hover {
@@ -250,13 +260,6 @@ h1.display-3 {
     border: 1px solid rgba(230, 240, 255, 0.8);
 }
 
-.feature-box:hover {
-    transform: translateY(-10px);
-    box-shadow: var(--shadow-lg);
-    border-color: var(--ocean-blue);
-    /* Updated to brand blue */
-}
-
 .feature-icon-wrapper {
     width: 80px;
     height: 80px;
@@ -270,12 +273,6 @@ h1.display-3 {
     color: var(--ocean-blue);
     font-size: 2rem;
     transition: all 0.4s ease;
-}
-
-.feature-box:hover .feature-icon-wrapper {
-    background: var(--gradient-accent);
-    color: white;
-    transform: scale(1.1) rotate(5deg);
 }
 
 /* Services Cards */
@@ -433,11 +430,52 @@ h1.display-3 {
 
 /* Footer */
 .footer-modern {
-    background: white;
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-    margin-top: 4rem;
+    background: rgba(255, 255, 255, 0.85);
+    /* Glass Background */
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    /* Unified Shadow & Radius */
+    box-shadow: var(--shadow-sm);
+    border-radius: 24px;
+
+    padding: 1.5rem 0;
+    margin: 1rem auto 1rem auto;
+    /* Floating with spacing matches navbar top */
+
+    width: calc(100% - 1.5rem);
+    /* Match Navbar Width */
+    max-width: 1320px;
+    /* Match container-xl */
+    text-align: center;
+}
+
+.footer-modern .container-xl {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+/* Responsive constraints matching container-xl content width & Navbar */
+@media (min-width: 992px) {
+    .footer-modern .container-xl {
+        padding-left: 2.5rem !important;
+        padding-right: 2.5rem !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer-modern {
+        max-width: 1116px;
+        /* 1140px - 24px gutter */
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .footer-modern {
+        max-width: 1296px;
+        /* 1320px - 24px gutter */
+        width: 100% !important;
+    }
 }
 
 a {
@@ -473,7 +511,49 @@ a {
 
 .contact-item:hover span {
     color: var(--ocean-blue);
-    font-weight: 600;
+    /* font-weight: 600; Removed to prevent width jump/layout shift */
+}
+
+/* Highlighted Contact Item (Button Style) */
+.contact-item-highlight {
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    /* Aligned horizontally with others (1rem), slightly taller vertically */
+    border-radius: 36px;
+    margin-left: -1rem;
+    /* Maintain alignment offset */
+    margin-bottom: 0.5rem;
+
+    padding: 0.5rem 1rem;
+    /* Aligned horizontally with others (1rem), slightly taller vertically */
+    border-radius: 36px;
+    margin-left: -1rem;
+    /* Maintain alignment offset */
+    margin-bottom: 0.5rem;
+
+    background: var(--gradient-accent);
+    color: white !important;
+    box-shadow: 0 4px 15px rgba(80, 182, 227, 0.3);
+    /* width: fit-content; Removed to allow stretching */
+    text-decoration: none;
+}
+
+/* Container to make all links same width (widest one) */
+.contact-links-container {
+    display: inline-flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.contact-item-highlight i {
+    color: white !important;
+}
+
+.contact-item-highlight:hover {
+    transform: translateX(10px);
+    background: linear-gradient(135deg, #2998C6 0%, #1e3a8a 100%);
+    box-shadow: 0 8px 25px rgba(80, 182, 227, 0.4);
+    color: white !important;
 }
 
 /* Modern Language Switcher */
@@ -745,7 +825,6 @@ a {
     font-weight: 400;
     /* Thinner/Normal */
     letter-spacing: 0.15em;
-    margin-top: 0.1rem;
     color: black;
     text-transform: uppercase;
 }
@@ -760,7 +839,7 @@ a {
     padding: 2px 4px;
     text-transform: uppercase;
     line-height: 1;
-    border-radius: 4px;
+    border-radius: 3px;
     display: inline-block;
 }
 
