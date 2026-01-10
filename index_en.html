@@ -62,7 +62,7 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-custom smart-scroll">
         <div class="container-xl py-2">
             <a class="navbar-brand d-flex align-items-center gap-2" href="index_en.html">
-                <img src="static/images/main/logo_blue_bezpozadi_2.png" alt="Element Swimming Logo" width="42"
+                <img src="static/images/main/logo_small.png" alt="Element Swimming Logo" width="42"
                     height="36">
                 <div class="d-flex align-items-center lh-1">
                     <span class="brand-element">Element</span>
@@ -461,7 +461,7 @@ A modern training process based on current trends and led by university-educated
         <div class="glass-panel">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-5 mb-4 mb-lg-0 text-lg-end" data-aos="fade-right">
-                    <img src="static/images/main/logo_blue_bezpozadi.png" class="img-fluid rounded-4"
+                    <img src="static/images/main/logo_big.png" class="img-fluid rounded-4"
                         alt="Logo Element Swimming" style="max-width:460px;">
                 </div>
                 <div class="col-lg-7" data-aos="fade-left">
@@ -516,7 +516,7 @@ A modern training process based on current trends and led by university-educated
                         href="https://www.linkedin.com/in/michael-sláma-a195641a0/">Michael Sláma</a>
                 </div>
                 <a href="/" class="mb-3 mb-md-0">
-                    <img src="static/images/main/logo_blue_bezpozadi_2.png" alt="Element Swimming Logo" width="42"
+                    <img src="static/images/main/logo_small.png" alt="Element Swimming Logo" width="42"
                         height="36">
                 </a>
                 <ul class="nav justify-content-end">
@@ -868,6 +868,24 @@ A modern training process based on current trends and led by university-educated
     <script>
         // add padding top to show content behind navbar
         $('body').css('padding-top', $('.navbar').outerHeight() + 'px')
+    </script>
+    <script>
+        // add padding top to show content behind navbar
+        $('body').css('padding-top', $('.navbar').outerHeight() + 'px')
+
+        // detect scroll top or down
+        if ($('.smart-scroll').length > 0) { // check if element exists
+            var last_scroll_top = 0;
+            $(window).on('scroll', function () {
+                scroll_top = $(this).scrollTop();
+                if (scroll_top < last_scroll_top || scroll_top < 0 || scroll_top == 0) {
+                    $('.smart-scroll').removeClass('scrolled-down').addClass('scrolled-up');
+                } else {
+                    $('.smart-scroll').removeClass('scrolled-up').addClass('scrolled-down');
+                }
+                last_scroll_top = scroll_top;
+            });
+        }
     </script>
 </body>
 
