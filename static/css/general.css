@@ -1,150 +1,3 @@
-header, .header-container {
-    background-color: white !important;
-}
-
-.text-justify {
-    text-align: justify;
-}
-
-.ul {
-    margin-bottom: none!important;
-}
-
-.contact-row {
-    padding: 4px 0 4px 0;
-    text-decoration: none;
-}
-
-.fake-h4 {
-    font-size: 1.5rem !important;
-}
-
-.fake-h4 a {
-    text-decoration: none;
-}
-
-
-.fake-h4 a p {
-    display: inline-block;
-    padding-left: 8px;
-}
-
-
-.cooperation-logo {
-    padding: 8px;
-    margin: 8px;
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-.cooperation-logo:hover {
-    transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    transition: 0.3s;
-}
-
-.text-color-es-plain {
-    color: #50B6E3 !important;
-}
-
-.text-color-es {
-    color: #50B6E3 !important;
-}
-
-.text-color-es:hover {
-    color: #59cbfd !important;
-    transition: 0.3s;
-}
-
-.bg-color-es {
-    background-color: #50B6E3 !important;
-}
-
-.bg-color-es:hover {
-    background-color: #59cbfd !important;
-    transition: ease-in 0.2s;
-}
-
-.bg-green {
-    background-color: #19c800 !important;
-}
-
-.bg-green:hover {
-    background-color: #37d200 !important;
-    transition: ease-in 0.2s;
-}
-
-.link-hover::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #50B6E3;
-    transition: width .3s;
-}
-
-.link-hover:hover::after {
-    width: 100%;
-}
-
-.fill {
-    min-height: 100%;
-    height: 100%;
-}
-
-blue {
-    color: #50B6E3 !important;
-}
-
-.feature-icon {
-    height: 64px;
-    width: 64px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 12px;
-}
-
-.reference-icon{
-    height: 96px;
-    width: 96px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 12px;
-    bottom:50%;
-}
-.feature-icon:hover {
-    background-color: #50B6E3 !important;
-    transition: 0.3s;
-}
-
-.no-decoration {
-    text-decoration: none !important;
-}
-
-.btn-no-style {
-    padding: 0 !important;
-    margin: 0 !important;
-    text-decoration: none !important;
-    border: none !important;
-    width: 100% !important;
-    height: 100% !important;
-    background-color: transparent !important;
-    border-radius: 1rem;
-}
-
-.btn-no-style:hover {
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.25) !important;
-    background-color: transparent !important;
-    transition: .3s !important;
-    transform: scale(1.02);
-}
-
-.modal-open .container-fluid, .modal-open .container {
-    -webkit-filter: blur(2px) grayscale(10%);
-}
-
 .modal-header {
     border-bottom: none !important;
     justify-content: end !important;
@@ -158,30 +11,10 @@ blue {
     border-radius: 1rem!important;
 }
 
-.h-90 {
-    height: 90% !important;
-}
-
-.wh-100 {
-    width: 100% !important;
-}
-
-.pr-2 {
-    padding-right: 0.5rem !important;
-}
-
 .modal-body {
     padding: 1.5rem !important;
     padding-bottom: 0 !important;
     padding-top: 0 !important;
-}
-
-.light-gray {
-    color: rgb(200, 200, 200);
-}
-
-.light-gray {
-    color: rgb(200, 200, 200) !important;
 }
 
 
@@ -203,10 +36,6 @@ blue {
     transition: all 0.3s ease-in-out;
 }
 
-.pt-8 {
-    padding-top: 4.7rem;
-}
-
 /* Safari */
 
 .a {
@@ -216,11 +45,6 @@ blue {
 
 .a:hover {
     color: #59cbfd !important;
-}
-
-
-.footer-nav {
-    justify-content: flex-end !important;
 }
 
 @media (max-width: 1399px) {
@@ -306,50 +130,9 @@ blue {
     }
 }
 
-
-.pre-title {
-    font-size: 1.5rem;
-    font-size: calc(1.3rem + .6vw);
-}
-
-.section-image {
-    max-height: 700px;
-    width: auto;
-    height: auto;
-}
-
-.display-cust {
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: 1.2;
-}
-
-.card {
-    border: none !important;
-}
-.card div ul li {
-    margin-bottom: 1rem !important;
-}
-
 .modal-body img {
     height: 100% !important;
     width: 100% !important;
-}
-
-
-.font-italic{
-    font-style: italic!important;
-}
-
-.reference-text{
-    font-size: 0.8rem!important;
-
-}
-
-.carousel-caption{
-    color: black!important;
-    position: initial!important;
-    text-align: initial!important;
 }
 
 .carousel-control-next{
@@ -375,15 +158,6 @@ blue {
     background-color: #6c757d!important;
 }
 
-.m-width-ref-image{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.ref-name{
-    font-size: 1.2rem!important;
-}
 
 @media (min-width: 992px) {
   .ref-image{
@@ -392,4 +166,9 @@ blue {
 }
 .small{
     font-size: 0.75rem!important;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
 }
