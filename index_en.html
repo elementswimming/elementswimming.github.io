@@ -1,1166 +1,877 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=5.0">
-    <title>Swimming coach Prague, Brno, Ostrava, Olomouc, Mladá Boleslav and Online | ES</title>
-    <meta content="Swimming training under the supervision of university educated professionals with several years of experience in the field - Prague, Brno, Ostrava, Olomouc, Mladá Boleslav or Online"
-          name="description">
 
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Swimming coach Prague, Brno, Ostrava, Olomouc, Mladá Boleslav and Online | ES</title>
+    <meta
+        content="Swimming training under the supervision of university educated professionals with several years of experience in the field - Prague, Brno, Ostrava, Olomouc, Mladá Boleslav or Online"
+        name="description">
     <meta property="og:locale" content="en_GB">
-    <meta property="og:title"
-          content="Swimming coach Prague, Brno, Ostrava, Olomouc, Mladá Boleslav and Online">
+    <meta property="og:title" content="Swimming coach Prague, Brno, Ostrava, Olomouc, Mladá Boleslav and Online">
     <meta property="og:description"
-          content="Swimming training under the supervision of university educated professionals with several years of experience in the field - Prague, Brno, Ostrava, Olomouc, Mladá Boleslav or Online">
+        content="Swimming training under the supervision of university educated professionals with several years of experience in the field - Prague, Brno, Ostrava, Olomouc, Mladá Boleslav or Online">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.elementswimming.cz/">
-    <meta property="og:site_name" content="Element swimming">
+    <meta property="og:site_name" content="Element Swimming">
     <meta property="og:image" content="https://www.elementswimming.cz/static/images/home_photo.webp">
     <meta property="og:image:height" content="525">
     <meta property="og:image:width" content="1024">
-
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@elementswimming">
-    <meta name="twitter:title" content="Element swimming">
+    <meta name="twitter:title" content="Element Swimming">
     <meta name="twitter:description"
-          content="Swimming training under the supervision of university educated professionals with several years of experience in the field - Prague, Brno, Ostrava, Olomouc, Mladá Boleslav or Online">
+        content="Swimming training under the supervision of university educated professionals with several years of experience in the field - Prague, Brno, Ostrava, Olomouc, Mladá Boleslav or Online">
     <meta name="twitter:image" content="https://www.elementswimming.cz/static/images/home_photo.webp">
-
     <link rel="icon" href="static/images/icons/logo_icon.png">
     <link rel="canonical" href="https://www.elementswimming.cz/index_en.html">
     <link rel="alternate" hreflang="cs" href="https://www.elementswimming.cz">
     <link rel="alternate" hreflang="en" href="https://www.elementswimming.cz/index_en.html">
     <link rel="apple-touch-icon" href="static/images/icons/apple-touch-icon-144x144.png">
-    <!-- Bootstrap core CSS -->
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Bootstrap core CSS (v5.3 or newer for modern look) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preload" href="static/css/general.css" as="style" />
+    <link rel="preload" href="static/css/headers.css" as="style" />
+    <link rel="preload" href="static/css/heroes.css" as="style" />
+    <link rel="preload" href="static/css/features.css" as="style" />
+    <link href="static/css/general.css" rel="stylesheet" />
+    <link href="static/css/headers.css" rel="stylesheet" />
+    <link href="static/css/heroes.css" rel="stylesheet" />
+    <link href="static/css/features.css" rel="stylesheet" />
+    <link href="static/css/modern.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-    <link rel="preload" href="static/css/general.css" as="style"/>
-    <link rel="preload" href="static/css/headers.css" as="style"/>
-    <link rel="preload" href="static/css/heroes.css" as="style"/>
-    <link rel="preload" href="static/css/features.css" as="style"/>
-    <link href="static/css/general.css" rel="stylesheet"/>
-    <link href="static/css/headers.css" rel="stylesheet"/>
-    <link href="static/css/heroes.css" rel="stylesheet"/>
-    <link href="static/css/features.css" rel="stylesheet"/>
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WNFFPWD');</script>
-    <!-- End Google Tag Manager -->
-
+    <!-- Google Tag Manager, unchanged-->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WNFFPWD');</script>
 </head>
+
 <body>
-<!-- Header -->
-<div class="container smart-scroll header-container">
-    <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-            <img src="static/images/main/basic_logo.webp" title="Element Swimming" alt="Logo Element Swimming - Menu" class="bi me-2" width="54" height="36"/>
-            <span class="fs-4">Element swimming</span>
-        </a>
-
-        <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#home" class="nav-link bg-color-es text-white" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#about" class="nav-link link-hover text-dark">About</a></li>
-            <li class="nav-item"><a href="#services" class="nav-link link-hover text-dark">Services</a></li>
-            <li class="nav-item"><a href="#career" class="nav-link link-hover text-dark">Career</a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link link-hover text-dark">Contact</a></li>
-            <li class="nav-item">
-                <a href="index.html" class="nav-link text-dark">
-                    <img src="static/images/icons/cz_lan.png" title="Czech language" alt="Czech language" class="bi me-3" width="28" height="28"/>
-                </a>
-            </li>
-        </ul>
-    </header>
-</div>
-
-<!-- Home -->
-<div id="home" class="container my-5 pt-8">
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
-        <div class="col-lg-5 p-3 p-lg-5 pt-lg-3 justify-content-center">
-            <p class="pre-title fw-bold">In the pool? Only with us!</p>
-            <h1 class="pre-title fw-bold" style="display:none">Swimming coach Prague, Brno, Ostrava, Olomouc, Mladá Boleslav and Online</h1>
-            <p class="display-4 fw-bold lh-1 py-3">Swimming training of the 21st century</p>
-            <p class="lead">A modern concept of the training process, based on current trends and supervised by university-educated professionals in the field</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3 pt-5 justify-content-center buttons">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-ylb1KfJQ963AjNXsysBp5Y0_qswA8yPwRxJX5amgg4WK2Q/viewform">
-                    <button type="button" class="btn bg-color-es btn-lg px-4 me-sm-3 text-white">
-                        Request a training session
-                    </button>
-                </a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfLfclAv1OM4CsRTYzbgZAeyPfwVN6tqoxv_zp-c4CEIKZU3w/viewform">
-                    <button type="button" class="btn btn-lg bg-green px-4 me-sm-3 text-white">
-                        Voucher
-                    </button>
-                </a>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom smart-scroll">
+        <div class="container-xl py-2">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index_en.html">
+                <img src="static/images/main/logo_blue_bezpozadi_2.png" alt="Element Swimming Logo" width="42"
+                    height="36">
+                <div class="d-flex align-items-center lh-1">
+                    <span class="brand-element">Element</span>
+                    <span class="brand-swimming">Swimming</span>
+                </div>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarES"
+                aria-controls="navbarES" aria-expanded="false" aria-label="Menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarES">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#career" class="nav-link">Career</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link px-2 p-0" title="Czech language">
+                            <span class="lang-switch">
+                                <i class="bi bi-translate me-1"></i>
+                                <span class="lang-en">EN</span>/<span class="lang-cz">CZ</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="col-lg-7 p-0">
-            <img src="static/images/main/home_photo.webp" class="img-fluid rounded-5 mb-4 section-image" title="Intro photo"
-                 alt="Intro photo">
+    </nav>
+
+    <!-- Hero / Home Banner -->
+    <section id="home" class="container-xl pb-4">
+        <div class="hero-glass mt-5" data-aos="fade-up">
+            <div class="row align-items-center w-100 m-0">
+                <div class="col-lg-5 py-4 px-0">
+                    <h5 class="text-uppercase text-primary fw-bold mb-4">In the pool? Only with us!</h5>
+                    <h1 class="display-3 fw-bold mb-3">Swim training <br><span class="brand-gradient">for the 21st century </span></h1>
+                    <p class="lead mb-4 text-muted">
+A modern training process based on current trends and led by university-educated professionals.</p>
+                    <div class="d-flex flex-wrap gap-3 pt-3">
+                        <a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSd-ylb1KfJQ963AjNXsysBp5Y0_qswA8yPwRxJX5amgg4WK2Q/viewform">
+                            <button type="button" class="btn-modern">Book a session</button>
+                        </a>
+                        <a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSfLfclAv1OM4CsRTYzbgZAeyPfwVN6tqoxv_zp-c4CEIKZU3w/viewform">
+                            <button type="button" class="btn-modern-outline">Voucher</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-7 text-center" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="static/images/main/home_photo.webp" class="img-fluid rounded-5 shadow-lg glass-card"
+                        title="Intro photo" alt="Intro photo" style="max-height: 800px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Home Vision Banner -->
+    <div class="container-xl my-4" data-aos="fade-up">
+        <div class="glass-panel text-center">
+            <h3 class="fw-normal lh-base mb-0">
+                <span class="text-primary fw-bold">Our vision is to teach you</span>, our clients, to <span
+                    class="text-primary fw-bold">swim</span> correctly and <span class="text-primary fw-bold">effectively.</span>
+            </h3>
         </div>
     </div>
-</div>
 
-<!-- Home footer -->
-<div class="container d-flex col-xxl-10 px-4 py-5 border-top border-bottom justify-content-center">
-     <p class="col-9 display-5 fw-bold text-center text-secondary">
-        <blue>Our vision is to teach you</blue>, our clients, <blue>to swim</blue> correctly and effectively.
-     </p>
-</div>
-
-<!-- About -->
-<div id="about" class="container col-xxl-10 px-4 py-4 border-bottom">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 justify-content-center">
-        <div class="col-10 col-sm-8 col-lg-6">
-            <img src="static/images/main/pan_trener.webp" class="d-block mx-lg-auto img-fluid img-fluid-cust border rounded-5 shadow-lg section-image"
-                 title="Swimming coach Dominik Vavrečka" alt="Swimming coach Dominik Vavrečka">
+    <!-- About Section -->
+    <section id="about" class="container-xl py-4">
+        <div class="glass-panel">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5 order-lg-2 mb-4 mb-lg-0 text-lg-end" data-aos="fade-left">
+                    <img src="static/images/main/pan_trener.webp" class="img-fluid shadow-lg glass-card"
+                        alt="Swimming coach Dominik Vavrečka">
+                </div>
+                <div class="col-lg-7" data-aos="fade-right">
+                    <h2 class="display-5 fw-bold mb-4">About</h2>
+                    <p class="lead mb-5 text-secondary" style="text-align:justify;">
+                        <span class="text-primary fw-bold">Element Swimming</span> was founded by Dominik Vavrečka and has been pushing
+                        the boundaries of Czech training since 2019.
+                        <br><br>
+                        Dominik is an athlete through and through. He applies the experience
+                        gained during his competitive career at the Ostrava Swimming Sports
+                        Club and his studies in Brno to his daily work with athletes.
+                        He is a multiple medalist at the Czech National Championships and a
+                        participant in European and World Championships. He currently works as a
+                        coach at the University Sports Centre Victoria.
+                        <br><br>
+                        His goal is to share up-to-date knowledge and help everyone develop
+                        their potential. This is how <span class="text-primary fw-bold">Element Swimming</span>
+                        was created.
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=lZhZZNMY8ic">
+                        <button type="button" class="btn-modern d-inline-flex align-items-center gap-2">
+                            Promo video <i class="bi bi-youtube fs-5"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-6">
-            <p class="display-5 fw-bold lh-1 py-3">About</p>
-            <p class="lead text-justify">Dominik is an athlete in body and soul and sport is a part of him. He was a member of the Ostrava Swimming Club, where he was active for 10 years of his
-                competitive career. The change came with his entry to Masaryk University in Brno. Here he continued his swimming career, throughout his
-                studies. Within 5 years he managed to complete a Bachelor's degree in Coaching and a Master's degree in Conditioning Coach.
-                During his sporting career Dominik has achieved several successes. He is a multiple medalist of the Czech Championship, a participant of the European Championship and
-                World Championships.
-                Now Dominik works as a coach at the Prague University Sports Centre known as Victoria.<br><br>
+    </section>
 
-                Dominic is driven forward by the knowledge from his sporting and coaching career. He wants to pass them on and help develop the potential of his charges.
-                It is thanks to all these suggestions and experiences that the unique Element swimming project was created.
+    <!-- WhyUs / Features Section -->
+    <section class="container-xl py-4">
+        <h2 class="display-6 mb-5 fw-bold text-center brand-gradient">Why choose us?</h2>
+        <div class="row g-4 pt-3 row-cols-1 row-cols-md-3 text-center">
+            <div class="col mx-0" data-aos="fade-up" data-aos-delay="0">
+                <div class="feature-box">
+                    <div class="feature-icon-wrapper">
+                        <i class="bi bi-cpu h2 m-0"></i>
+                    </div>
+                    <h3 class="h5 fw-bold py-2">Modern approach</h3>
+                    <p class="mb-0 text-muted">Sports training in swimming based on modern knowledge from the world of
+                        swimming and supported by many years of experience.</p>
+                </div>
+            </div>
+            <div class="col mx-0" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-box">
+                    <div class="feature-icon-wrapper">
+                        <i class="bi bi-bar-chart-line h2 m-0"></i>
+                    </div>
+                    <h3 class="h5 fw-bold py-2">Sustainable results</h3>
+                    <p class="mb-0 text-muted">We respect your individuality, on the basis of which we will set the most
+                        suitable type of training for long-term sustainable results.</p>
+                </div>
+            </div>
+            <div class="col mx-0" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-box">
+                    <div class="feature-icon-wrapper">
+                        <i class="bi bi-globe2 h2 m-0"></i>
+                    </div>
+                    <h3 class="h5 fw-bold py-2">Flexibility and independence</h3>
+                    <p class="mb-0 text-muted">We operate in several cities in the Czech Republic, so it is not a
+                        problem to meet your individual requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section Modernized -->
+    <section id="services" class="container-xl py-4">
+        <h2 class="display-5 mb-4 fw-bold text-center brand-gradient">Services</h2>
+        <div class="col-xxl-10 mx-auto" data-aos="fade-up">
+            <p class="lead mb-5 text-center text-muted" style="max-width: 900px; margin: 0 auto;">
+                At <span class="fw-bold text-primary">Element Swimming</span>,
+                we believe in an individual approach and work only with certified ČSPS coaches.
+                <br>
+                We offer tailored swimming services in
+                <span class="fw-bold">Prague, Brno, Ostrava, Olomouc, Mladá Boleslav</span>, and <span class="fw-bold">Online</span>.
+                <br>
+                <span class="fw-bold">For more information and pricing, select your city below</span>.
             </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3 pt-5 justify-content-center buttons">
-                <a href="https://www.youtube.com/watch?v=lZhZZNMY8ic">
-                    <button type="button" class="btn bg-color-es btn-lg px-4 me-sm-3 text-white">
-                        Promo Video
-                    </button>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+            <div class="col" data-aos="flip-left" data-aos-delay="0">
+                <button id="prague" type="button" class="service-card-btn" data-bs-toggle="modal"
+                    data-bs-target="#PragueModal" aria-label="Prague">
+                    <div class="service-card"
+                        style="background: url('static/images/services/prague.webp') center/cover no-repeat;">
+                        <div class="service-overlay">
+                            <h3 class="mb-0 fw-bold display-6 text-white">Prague</h3>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="col" data-aos="flip-left" data-aos-delay="100">
+                <button id="brno" class="service-card-btn" data-bs-toggle="modal" data-bs-target="#BrnoModal"
+                    aria-label="Brno">
+                    <div class="service-card"
+                        style="background: url('static/images/services/brno.webp') center/cover no-repeat;">
+                        <div class="service-overlay">
+                            <h3 class="mb-0 fw-bold display-6 text-white">Brno</h3>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="col" data-aos="flip-left" data-aos-delay="200">
+                <button id="ostrava" class="service-card-btn" data-bs-toggle="modal" data-bs-target="#OstravaModal"
+                    aria-label="Ostrava">
+                    <div class="service-card"
+                        style="background: url('static/images/services/ostrava.webp') center/cover no-repeat;">
+                        <div class="service-overlay">
+                            <h3 class="mb-0 fw-bold display-6 text-white">Ostrava</h3>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="col" data-aos="flip-left" data-aos-delay="300">
+                <button id="olomouc" class="service-card-btn" data-bs-toggle="modal" data-bs-target="#OlomoucModal"
+                    aria-label="Olomouc">
+                    <div class="service-card"
+                        style="background: url('static/images/services/olomouc.webp') center/cover no-repeat;">
+                        <div class="service-overlay">
+                            <h3 class="mb-0 fw-bold display-6 text-white">Olomouc</h3>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="col" data-aos="flip-left" data-aos-delay="400">
+                <button id="mlada_boleslav" class="service-card-btn" data-bs-toggle="modal" data-bs-target="#MladaBoleslavModal"
+                    aria-label="Mladá Boleslav">
+                    <div class="service-card"
+                        style="background: url('static/images/services/mlada_boleslav.webp') center/cover no-repeat;">
+                        <div class="service-overlay">
+                            <h3 class="mb-0 fw-bold display-6 text-white">Mladá Boleslav</h3>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="col" data-aos="flip-left" data-aos-delay="500">
+                <button id="online" class="service-card-btn" data-bs-toggle="modal" data-bs-target="#OnlineModal"
+                    aria-label="Online">
+                    <div class="service-card"
+                        style="background: url('static/images/services/online.webp') center/cover no-repeat;">
+                        <div class="service-overlay">
+                            <h3 class="mb-0 fw-bold display-6 text-white">Online</h3>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cooperation Logos -->
+    <div class="container-xl py-4" id="cooperation" data-aos="fade-up">
+        <div class="glass-panel">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-5 align-items-center text-center p-4">
+                <div><a href="https://www.kpsostrava.cz"><img src="static/images/cooperation/kpsos.webp" title="KPSOS"
+                            class="img-fluid opacity-75 hover-opacity-100 transition-opacity"
+                            style="max-width:160px;max-height:80px;" alt="KPSOS logo" /></a></div>
+                <div><a href="https://www.vsc.cz"><img src="static/images/cooperation/victoria.webp" title="Victoria"
+                            class="img-fluid opacity-75 hover-opacity-100 transition-opacity"
+                            style="max-width:160px;max-height:80px;" alt="Victoria logo" /></a></div>
+                <div><a href="https://www.sportgym-ostrava.cz"><img
+                            src="static/images/cooperation/sportgym_ostrava.webp" title="Sportgym Ostrava"
+                            class="img-fluid opacity-75 hover-opacity-100 transition-opacity"
+                            style="max-width:130px;max-height:70px;" alt="Sportgym Ostrava logo" /></a></div>
+                <div><a href="https://www.czechswimming.cz"><img src="static/images/cooperation/csps.webp" title="ČSPS"
+                            class="img-fluid opacity-75 hover-opacity-100 transition-opacity"
+                            style="max-width:160px;max-height:80px;" alt="ČSPS logo" /></a></div>
+                <div><a href="https://www.scpap.cz"><img src="static/images/cooperation/scpap.webp" title="SCPAP"
+                            class="img-fluid opacity-75 hover-opacity-100 transition-opacity"
+                            style="max-width:160px;max-height:80px;" alt="SCPAP logo" /></a></div>
+                <div><a href="https://www.fyzioterapeut-ostrava.cz"><img
+                            src="static/images/cooperation/fyz_ostrava.webp" title="Fyzioterapeut Ostrava"
+                            class="img-fluid opacity-75 hover-opacity-100 transition-opacity"
+                            style="max-width:160px;max-height:80px;" alt="Fyzioterapeut Ostrava logo" /></a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- References Carousel modern look -->
+    <section class="container-xl py-4" data-aos="fade-up">
+        <div class="carousel-testimonial">
+            <h2 class="display-5 pt-3 pb-0 fw-bold text-center brand-gradient">How do our clients see it?</h2>
+            <div id="myCarousel" class="carousel slide py-5">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1"
+                        class="active"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center">
+                        <div class="row align-items-center justify-content-center g-4">
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img src="static/images/references/bara.webp" class="rounded-4 shadow img-fluid"
+                                    alt="Bára K. Photo" style="max-width:270px;" />
+                            </div>
+                            <div class="col-lg-6 text-start">
+                                <blockquote class="fw-light">
+                                    <span class="text-body">"I continue my lessons with Dominik and thanks to them, I
+                                        have found a new hobby and activity that I always look forward to. The classes
+                                        are varied, fun and "tailor-made". We address technique, correct execution,
+                                        improve physical fitness and I always leave the training happy."</span>
+                                    <footer class="blockquote-footer mt-2">Bára K.</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="row align-items-center justify-content-center g-4">
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img src="static/images/references/eva.webp" class="rounded-4 shadow img-fluid"
+                                    alt="Eva S. Photo" style="max-width:270px;" />
+                            </div>
+                            <div class="col-lg-6 text-start">
+                                <blockquote class="fw-light">
+                                    <span class="text-body">"Today's training was great. I'm excited. Lucy's excited.
+                                        I'm sure we'll keep going. If you could please send me the underwater videos - I
+                                        want to take another look. Thank you!"</span>
+                                    <footer class="blockquote-footer mt-2">Eva S.</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="row align-items-center justify-content-center g-4">
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img src="static/images/references/tadeas.webp" class="rounded-4 shadow img-fluid"
+                                    alt="Tadeáš V. Photo" style="max-width:270px;" />
+                            </div>
+                            <div class="col-lg-6 text-start">
+                                <blockquote class="fw-light">
+                                    <span class="text-body">"During 3 training sessions, thanks to Dominik, I understood
+                                        the key mistakes I make in my swimming and I managed to partially eliminate
+                                        them. The lessons were tailored to which styles I wanted to work on."</span>
+                                    <footer class="blockquote-footer mt-2">Tadeáš V.</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="row align-items-center justify-content-center g-4">
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img src="static/images/references/sylva.webp" class="rounded-4 shadow img-fluid"
+                                    alt="Sylva J. Photo" style="max-width:270px;" />
+                            </div>
+                            <div class="col-lg-6 text-start">
+                                <blockquote class="fw-light">
+                                    <span class="text-body">"Before the first training I had no idea what to expect. I
+                                        thought I was more of a lost cause... And there was - so much so, in fact, that
+                                        I got really excited about it! Most of all, I was thrilled with the attitude of
+                                        Coach Dominic, who knew exactly what to target in my case."</span>
+                                    <footer class="blockquote-footer mt-2">Sylva J.</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="row align-items-center justify-content-center g-4">
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img src="static/images/references/jirka.webp" class="rounded-4 shadow img-fluid"
+                                    alt="Jirka K. Photo" style="max-width:270px;" />
+                            </div>
+                            <div class="col-lg-6 text-start">
+                                <blockquote class="fw-light">
+                                    <span class="text-body">"The coach was very nice, and it was really obvious that he
+                                        is a professional and has years of experience. He analyzed my technique and
+                                        advised me how and what to improve. My experience was very positive."</span>
+                                    <footer class="blockquote-footer mt-2">Jirka K.</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev"
+                    style="background:#f4f7fb;">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next"
+                    style="background:#f4f7fb;">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Section -->
+    <section id="career" class="container-xl py-4">
+        <div class="glass-panel">
+            <div class="row align-items-center g-5 py-3">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <h2 class="display-5 fw-bold mb-3">Career</h2>
+                    <p class="lead mb-4 text-muted" style="text-align:justify;">
+                        We offer you the chance to become part of our professional team,
+                        where you will work with a diverse range of clients and tailor
+                        your training approach to their individual needs. Together,
+                        we will achieve great results and help people swim faster, better,
+                        and with confidence.
+                        <br><br>
+                        Contact us and tell us why you should be our next outstanding swim coach.
+                    </p>
+                    <a href="#contact">
+                        <button type="button" class="btn-modern d-inline-flex align-items-center gap-2">
+                            More information
+                        </button>
+                    </a>
+                </div>
+                <div class="col-lg-5 mb-4 mb-lg-0 text-lg-start" data-aos="fade-left">
+                    <img src="static/images/main/career.webp" class="img-fluid shadow-lg glass-card"
+                        alt="Element Swimming coaches">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container-xl py-4">
+        <div class="glass-panel">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0 text-lg-end" data-aos="fade-right">
+                    <img src="static/images/main/logo_blue_bezpozadi.png" class="img-fluid rounded-4"
+                        alt="Logo Element Swimming" style="max-width:460px;">
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <h2 class="display-5 fw-bold mb-3 brand-gradient">Contact</h2>
+                    <p class="lead mb-4 text-secondary">
+                        Do you want to schedule a training session? Do you have questions,
+                        need to contact a coach, or anything else? Just get in touch with us.
+                    </p>
+                    <div class="contact-links-container">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-ylb1KfJQ963AjNXsysBp5Y0_qswA8yPwRxJX5amgg4WK2Q/viewform"
+                            target="_blank" class="d-flex align-items-center contact-item-highlight">
+                            <i class="bi bi-file-text fs-3"></i>
+                            <span class="ms-3 fw-bold" style="font-size:1.11rem;">Book a session</span>
+                        </a>
+                        <a href="mailto:elementswimming@gmail.com"
+                            class="d-flex align-items-center text-body contact-item">
+                            <i class="bi bi-envelope fs-3 text-primary"></i>
+                            <span class="ms-3" style="font-size:1.11rem;">elementswimming@gmail.com</span>
+                        </a>
+                        <a href="tel:+420725956042" class="d-flex align-items-center text-body contact-item">
+                            <i class="bi bi-telephone fs-3 text-primary"></i>
+                            <span class="ms-3" style="font-size:1.11rem;">725 956 042</span>
+                        </a>
+                        <a href="https://www.instagram.com/elementswimming_cz/"
+                            class="d-flex align-items-center text-body contact-item">
+                            <i class="bi bi-instagram fs-3 text-primary"></i>
+                            <span class="ms-3" style="font-size:1.11rem;">elementswimming_cz</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/dominik-vavrečka-1a272a145/"
+                            class="d-flex align-items-center text-body contact-item">
+                            <i class="bi bi-linkedin fs-3 text-primary"></i>
+                            <span class="ms-3" style="font-size:1.11rem;">Dominik Vavrečka</span>
+                        </a>
+                        <a href="https://www.youtube.com/@elementswimming8589"
+                            class="d-flex align-items-center text-body contact-item">
+                            <i class="bi bi-youtube fs-3 text-primary"></i>
+                            <span class="ms-3" style="font-size:1.11rem;">Youtube</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Modern -->
+    <footer class="footer-modern">
+        <div class="container-xl">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <div class="mb-3 mb-md-0 small text-muted">
+                    &copy; 2026 Element Swimming &mdash;
+                    <a class="text-muted text-decoration-none"
+                        href="https://www.linkedin.com/in/michael-sláma-a195641a0/">Michael Sláma</a>
+                </div>
+                <a href="/" class="mb-3 mb-md-0">
+                    <img src="static/images/main/logo_blue_bezpozadi_2.png" alt="Element Swimming Logo" width="42"
+                        height="36">
                 </a>
-            </div>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Cooperation -->
-<div class="container col-xxl-10 px-4 border-bottom" id="cooperation">
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 py-3 align-items-center fill justify-content-center">
-        <a class="col d-flex align-items-start cooperation-logo justify-content-center py-3" href="https://www.kpsostrava.cz">
-            <img src="static/images/cooperation/kpsos.webp" title="Klub Plaveckých Sportů Ostrava, KPSOS"
-                 alt="Klub Plaveckých Sportů Ostrava, KPSOS - Logo" class="bi me-2" width="200"/>
-        </a>
-        <a class="col d-flex align-items-start cooperation-logo justify-content-center py-3" href="https://www.vsc.cz">
-            <img src="static/images/cooperation/victoria.webp" title="Vysokoškolské sportovní centrum Ministerstva školství, mládeže a tělovýchovy, Victoria"
-                 alt="Vysokoškolské sportovní centrum Ministerstva školství, mládeže a tělovýchovy, Victoria - Logo" class="bi me-2" width="200"/>
-        </a>
-        <a class="col d-flex align-items-start cooperation-logo justify-content-center py-3" href="https://www.sportgym-ostrava.cz">
-            <img src="static/images/cooperation/sportgym_ostrava.webp" title="Sportovní gymnázium Dany a Emila Zátopkových Ostrava"
-                 alt="Sportovní gymnázium Dany a Emila Zátopkových Ostrava - Logo" class="bi me-2" width="150"/>
-        </a>
-        <a class="col d-flex align-items-start cooperation-logo justify-content-center py-3" href="https://www.czechswimming.cz">
-            <img src="static/images/cooperation/csps.webp" title="Český Svaz Plaveckých Sportů"
-                 alt="Český Svaz Plaveckých Sportů - Logo" class="bi me-2" width="200"/>
-        </a>
-        <a class="col d-flex align-items-start cooperation-logo justify-content-center py-3" href="https://www.scpap.cz">
-            <img src="static/images/cooperation/scpap.webp" title="Sport Club Plavecký Areál Pardubice"
-                 alt="SCPAP - Logo" class="bi me-2" width="200"/>
-        </a>
-        <a class="col d-flex align-items-start cooperation-logo justify-content-center py-3" href="https://www.fyzioterapeut-ostrava.cz">
-            <img src="static/images/cooperation/fyz_ostrava.webp" title="Fyzioterapeut Ostrava"
-                 alt="Fyzioterapeut Ostrava - Logo" class="bi me-2" width="200"/>
-        </a>
-    </div>
-</div>
-
-<!-- Services -->
-<div id="services" class="container col-xxl-10 px-4 py-5 border-bottom">
-    <p class="display-5 py-3 fw-bold text-center">Services</p>
-    <div class="col-xxl-12 mx-auto">
-        <p class="lead mb-4 text-justify">
-            At <span class="fw-bold">Element Swimming</span> we believe that individual lessons are the key to achieving
-            your swimming goals. That's why we only work with certified coaches from the Czech Swimming Federation
-            Swimming Sports Association. Each of our coaches has undergone rigorous swim training, allowing them to bring
-            you not only experience, but also a passion for swimming.
-            <br><br>
-            Our trainers are top in their field due to their dedication and qualifications.
-            With us, it's not just about training, it's also about passing on knowledge to our clients.
-            We are proud to be able to offer our swimming services not only in <span class="fw-bold">Prague, Brno, Ostrava, Olomouc</span> and
-            <span class="fw-bold">Mladá Boleslav</span>, but also through <span class="fw-bold">Online coaching</span>
-            to make us as accessible as possible to you.
-            <br><br>
-            We would love to help you achieve your swimming goals. For more information about our services and prices in a specific city,
-            feel free to click on your city in our <span class="fw-bold">price list</span>.
-        </p>
-    </div>
-
-    <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5 pt-2 justify-content-center">
-        <div class="col">
-            <button id="prague" type="button" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#PragueModal">
-                <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('static/images/services/prague.webp');">
-                    <div class="d-flex flex-column h-100 p-5 mt-5 pb-3 text-white text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold no-decoration text-start">Prague</h2>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </button>
-        </div>
-
-        <div class="col">
-            <button id="brno" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#BrnoModal">
-                <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('static/images/services/brno.webp');">
-                    <div class="d-flex flex-column h-100 p-5 mt-5 pb-3 text-white text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start">Brno</h2>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </button>
-        </div>
-
-        <div class="col">
-            <button id="ostrava" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#OstravaModal">
-                <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('static/images/services/ostrava.webp');">
-                    <div class="d-flex flex-column h-100 p-5 mt-5 pb-3 text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start">Ostrava</h2>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </button>
-        </div>
-
-        <div class="col">
-            <button id="olomouc" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#OlomoucModal">
-                <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('static/images/services/olomouc.webp');">
-                    <div class="d-flex flex-column h-100 p-5 mt-5 pb-3 text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start">Olomouc</h2>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </button>
-        </div>
-
-        <div class="col">
-            <button id="mlada_boleslav" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#BrnoModal">
-                <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('static/images/services/mlada_boleslav.webp');">
-                    <div class="d-flex flex-column h-100 p-5 mt-5 pb-3 text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start">Mladá Boleslav</h2>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </button>
-        </div>
-
-        <div class="col">
-            <button id="online" class="btn-no-style" data-bs-toggle="modal" data-bs-target="#OnlineModal">
-                <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('static/images/services/online.webp');">
-                    <div class="d-flex flex-column h-100 p-5 mt-5 pb-3 text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-start">Online</h2>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </button>
-        </div>
-    </div>
-</div>
-
-<div id="career" class="container col-xxl-10 px-4 py-5 border-bottom">
-    <div class="row row-cols-1 row-cols-lg-2 flex-lg-row-reverse align-items-center g-5 py-5 justify-content-center">
-        <div class="col-10">
-            <img src="static/images/main/career.webp" class="d-block mx-lg-auto img-fluid img-fluid-cust border rounded-5 shadow-lg section-image"
-                 title="Element Swimming coaches" alt="Element Swimming coaches">
-        </div>
-        <div class="col-lg-6">
-            <p class="display-5 fw-bold lh-1 py-3">Career</p>
-            <p class="lead text-justify">
-                We offer you the opportunity to become part of our professional team where you will have the opportunity to work with a diverse
-                clientele and tailor your training to your individual needs. Together we will achieve success and help people
-                swim faster, better and with confidence.
-                <br><br>
-                Contact us and let us know why you should be our next great swim coach.
-            </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3 pt-5 justify-content-center buttons">
-                <a href="#contact">
-                    <button type="button" class="btn bg-color-es btn-lg px-4 me-sm-3 text-white">
-                        More information
-                    </button>
-                </a>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link px-2 text-muted">Services</a></li>
+                    <li class="nav-item"><a href="#career" class="nav-link px-2 text-muted">Career</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Contact</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-</div>
-
-<!-- Services footer -->
-<div class="container col-xxl-10 px-4 py-5 border-bottom">
-    <p class="display-5 pt-3 pb-0 fw-bold text-center">Why choose us?</p>
-        <div class="row g-4 py-3 pt-5 row-cols-1 row-cols-lg-3">
-        <div class="feature col">
-            <h3 class="text-muted py-3">Modern approach</h3>
-            <p class="text-muted">Sports training in swimming based on modern knowledge from the world of swimming and supported by many years of experience</p>
-        </div>
-        <div class="feature col">
-            <h3 class="text-muted py-3">Sustainable results</h3>
-            <p class="text-muted">We respect your individuality on the basis of which we will set the most suitable type of training for long-term sustainable results</p>
-        </div>
-        <div class="feature col">
-            <h3 class="text-muted py-3">Flexibility and independence</h3>
-            <p class="text-muted">We operate in three cities in the Czech Republic and therefore it is not a problem to meet your individual requirements</p>
-        </div>
-    </div>
-</div>
-<!-- References -->
-<div class="container col-xxl-10 px-4 py-5 border-bottom">
-    <p class="display-5 pt-3 pb-0 fw-bold text-center">How do our clients see it?</p>
-    <div class="row">
-        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5" class=""></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item pt-5 active">
-                <div class="container">
-                    <div class="carousel-caption row flex-lg-row align-items-center g-5 justify-content-center pt-0">
-                        <div class="col-lg-6 p-5 align-content-start mt-0 justify-content-between">
-                            <p class="font-italic text-black">"
-                                I continue my lessons with Dominik and thanks to them, I have found a new hobby and
-                                activity that I always look forward to. The classes are varied, fun and "tailor-made".
-                                We address technique, correct execution, improve physical fitness and I always leave
-                                the training happy. In addition to clear and patient explanations, the analysis of
-                                swimming videos or the use of various aids helps to achieve better results.
-                                Another advantage is the quick and flexible arrangement, which always allows training
-                                even with irregular school schedules."</p>
-                            <p class="text-muted ref-name">Bára K.</p>
-                        </div>
-                        <div class="col-10 col-sm-8 col-lg-6 mt-0 pb-5 pt-5 ref-image">
-                            <img src="static/images/references/bara.webp" class="d-block mx-lg-auto section-image rounded-5 m-width-ref-image shadow-lg img-fluid"
-                                 title="Bara K Photo"
-                                 alt="Bara K Photo">
-                        </div>
-                    </div>
-                </div>
-              </div>
-                <div class="carousel-item pt-5">
-                <div class="container">
-                    <div class="carousel-caption row flex-lg-row align-items-center g-5 justify-content-center pt-0">
-                        <div class="col-lg-6 p-5 align-content-start mt-0 justify-content-between">
-                            <p class="font-italic text-black">"Today's training was great. I'm excited. Lucy's excited.
-                                I'm sure we'll keep going. If you could please send me the underwater videos -
-                                I want to take another look. Thank you!"</p>
-                            <p class="text-muted ref-name">Eva S.</p>
-                        </div>
-                        <div class="col-10 col-sm-8 col-lg-6 mt-0 pb-5 pt-5 ref-image">
-                            <img src="static/images/references/eva.webp" class="d-block mx-lg-auto section-image rounded-5 m-width-ref-image shadow-lg img-fluid"
-                                 title="Eva S Photo"
-                                 alt="Eva S Photo">
-                        </div>
-                    </div>
-                </div>
-              </div>
-                <div class="carousel-item pt-5">
-                <div class="container">
-                    <div class="carousel-caption row flex-lg-row align-items-center g-5 justify-content-center pt-0">
-                        <div class="col-lg-6 p-5 align-content-start mt-0 justify-content-between">
-                            <p class="font-italic text-black">"During 3 training sessions, thanks to Dominik, I understood the key
-                                mistakes I make in my swimming and I managed to partially eliminate them. The lessons were tailored
-                                to which styles I wanted to work on, the coach used different swimming aids and video, which helped
-                                me a lot to focus on the specific part of the stroke I was making a mistake in. Dominic was great to
-                                deal with, and it was no problem arranging the lessons so that I could keep up with my work commitments.
-                                In general, I found his approach great."</p>
-                            <p class="text-muted ref-name">Tadeáš V.</p>
-                        </div>
-                        <div class="col-10 col-sm-8 col-lg-6 mt-0 pb-5 pt-5 ref-image">
-                            <img src="static/images/references/tadeas.webp" class="d-block mx-lg-auto section-image rounded-5 m-width-ref-image shadow-lg img-fluid"
-                                 title="Tades V Photo"
-                                 alt="Tades V Photo">
-                        </div>
-                    </div>
-                </div>
-              </div>
-                <div class="carousel-item pt-5">
-                <div class="container">
-                    <div class="carousel-caption row flex-lg-row align-items-center g-5 justify-content-center pt-0">
-                        <div class="col-lg-6 p-5 align-content-start mt-0 justify-content-between">
-                            <p class="font-italic text-black">"Before the first training I had no idea what to expect.
-                                I thought I was more of a lost cause who swims across the pool and doesn't drown in the process,
-                                so I didn't even anticipate that there would be anything to improve on my "art". And there was -
-                                so much so, in fact, that I got really excited about it! Most of all, I was thrilled with
-                                the attitude of Coach Dominic, who had nothing but words of encouragement for me, and knew
-                                exactly what to target in my case. Now I normally look forward to every visit to the pool
-                                to try out what I've learned. :-)"</p>
-                            <p class="text-muted ref-name">Sylva J.</p>
-                        </div>
-                        <div class="col-10 col-sm-8 col-lg-6 mt-0 pb-5 pt-5 ref-image">
-                            <img src="static/images/references/sylva.webp" class="d-block mx-lg-auto section-image rounded-5 m-width-ref-image shadow-lg img-fluid"
-                                 title="Tades V Photo"
-                                 alt="Tades V Photo">
-                        </div>
-                    </div>
-                </div>
-              </div>
-                <div class="carousel-item pt-5">
-                <div class="container">
-                    <div class="carousel-caption row flex-lg-row align-items-center g-5 justify-content-center pt-0">
-                        <div class="col-lg-6 p-5 align-content-start mt-0 justify-content-between">
-                            <p class="font-italic text-black">"The coach was very nice, and it was really obvious
-                                that he is a professional and has years of experience. I was very pleased with his approach,
-                                he analyzed my technique and advised me how and what to improve. My experience was very
-                                positive and in the future I will consider private coaching which would definitely be a
-                                huge benefit and improvement to my swimming technique."</p>
-                            <p class="text-muted ref-name">Jirka K.</p>
-                        </div>
-                        <div class="col-10 col-sm-8 col-lg-6 mt-0 pb-5 pt-5 ref-image">
-                            <img src="static/images/references/jirka.webp" class="d-block mx-lg-auto section-image rounded-5 m-width-ref-image shadow-lg img-fluid"
-                                 title="Tades V Photo"
-                                 alt="Tades V Photo">
-                        </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-</div>
-
-<!-- Contact -->
-<div id="contact" class="container col-xxl-10 px-4 py-4">
-    <div class="row flex-lg-row align-items-center g-5 justify-content-center">
-        <div class="col-10 col-sm-8 col-lg-6 p-5">
-            <img src="static/images/main/contact_logo.webp" class="d-block mx-lg-auto img-fluid section-image" title="Element Swimming"
-                 alt="Logo Element Swimming big">
-        </div>
-        <div class="col-lg-6">
-            <p class="display-5 fw-bold lh-1 mb-3">Contact</p>
-            <p class="lead text-justify">
-                Do you want to
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-ylb1KfJQ963AjNXsysBp5Y0_qswA8yPwRxJX5amgg4WK2Q/viewform" class="text-color-es text-decoration-none fw-bold">
-                ask for a training session?</a>
-                Do you have any questions, need to contact trainer or need to
-                address something else?
-                <br>
-                <br>
-                No problem, just contact us below:
-                <br>
-                <br>
-            </p>
-            <div class="contact-row">
-                <div class="fake-h4 mb-2"><a href="mailto:elementswimming@gmail.com" class="text-color-es d-flex align-items-center">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 40px; height: 40px; fill:black;">
-                    <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                    <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM218 271.7L64.2 172.4C66 156.4 79.5 144 96 144l256 0c16.5 0 30 12.4 31.8 28.4L230 271.7c-1.8 1.2-3.9 1.8-6 1.8s-4.2-.6-6-1.8zm29.4 26.9L384 210.4 384 336c0 17.7-14.3 32-32 32L96 368c-17.7 0-32-14.3-32-32l0-125.6 136.6 88.2c7 4.5 15.1 6.9 23.4 6.9s16.4-2.4 23.4-6.9z"/>
-                </svg>
-                    <p class="m-0 px-3">elementswimming@gmail.com</p>
-                </a></div>
-            </div>
-            <div class="contact-row ">
-                <div class="fake-h4 mb-2"><a href="https://www.instagram.com/elementswimming_cz/" class="text-color-es d-flex align-items-center">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 40px; height: 40px; fill:black;">
-                    <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                    <path d="M194.4 211.7a53.3 53.3 0 1 0 59.3 88.7 53.3 53.3 0 1 0 -59.3-88.7zm142.3-68.4c-5.2-5.2-11.5-9.3-18.4-12c-18.1-7.1-57.6-6.8-83.1-6.5c-4.1 0-7.9 .1-11.2 .1c-3.3 0-7.2 0-11.4-.1c-25.5-.3-64.8-.7-82.9 6.5c-6.9 2.7-13.1 6.8-18.4 12s-9.3 11.5-12 18.4c-7.1 18.1-6.7 57.7-6.5 83.2c0 4.1 .1 7.9 .1 11.1s0 7-.1 11.1c-.2 25.5-.6 65.1 6.5 83.2c2.7 6.9 6.8 13.1 12 18.4s11.5 9.3 18.4 12c18.1 7.1 57.6 6.8 83.1 6.5c4.1 0 7.9-.1 11.2-.1c3.3 0 7.2 0 11.4 .1c25.5 .3 64.8 .7 82.9-6.5c6.9-2.7 13.1-6.8 18.4-12s9.3-11.5 12-18.4c7.2-18 6.8-57.4 6.5-83c0-4.2-.1-8.1-.1-11.4s0-7.1 .1-11.4c.3-25.5 .7-64.9-6.5-83l0 0c-2.7-6.9-6.8-13.1-12-18.4zm-67.1 44.5A82 82 0 1 1 178.4 324.2a82 82 0 1 1 91.1-136.4zm29.2-1.3c-3.1-2.1-5.6-5.1-7.1-8.6s-1.8-7.3-1.1-11.1s2.6-7.1 5.2-9.8s6.1-4.5 9.8-5.2s7.6-.4 11.1 1.1s6.5 3.9 8.6 7s3.2 6.8 3.2 10.6c0 2.5-.5 5-1.4 7.3s-2.4 4.4-4.1 6.2s-3.9 3.2-6.2 4.2s-4.8 1.5-7.3 1.5l0 0c-3.8 0-7.5-1.1-10.6-3.2zM448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM357 389c-18.7 18.7-41.4 24.6-67 25.9c-26.4 1.5-105.6 1.5-132 0c-25.6-1.3-48.3-7.2-67-25.9s-24.6-41.4-25.8-67c-1.5-26.4-1.5-105.6 0-132c1.3-25.6 7.1-48.3 25.8-67s41.5-24.6 67-25.8c26.4-1.5 105.6-1.5 132 0c25.6 1.3 48.3 7.1 67 25.8s24.6 41.4 25.8 67c1.5 26.3 1.5 105.4 0 131.9c-1.3 25.6-7.1 48.3-25.8 67z"/>
-                </svg>
-                    <p class="m-0 px-3">elementswimming_cz</p>
-                </a></div>
-            </div>
-            <div class="contact-row">
-                <div class="fake-h4 mb-2"><a href="tel:+420 725 956 042" class="text-color-es d-flex align-items-center">
-                    <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 40px; height: 40px; fill: black;">
-                        <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm90.7 96.7c9.7-2.6 19.9 2.3 23.7 11.6l20 48c3.4 8.2 1 17.6-5.8 23.2L168 231.7c16.6 35.2 45.1 63.7 80.3 80.3l20.2-24.7c5.6-6.8 15-9.2 23.2-5.8l48 20c9.3 3.9 14.2 14 11.6 23.7l-12 44C336.9 378 329 384 320 384C196.3 384 96 283.7 96 160c0-9 6-16.9 14.7-19.3l44-12z"/>
-                    </svg>
-                    <p class="m-0 px-3">725 956 042</p>
-                </a></div>
-            </div>
-            <div class="contact-row">
-                <div class="fake-h4 mb-2"><a href="https://www.linkedin.com/in/dominik-vavrečka-1a272a145/" class="text-color-es d-flex align-items-center">
-                    <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 40px; height: 40px; fill:black;">
-                        <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                        <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
-                    </svg>
-                    <p class="m-0 px-3">Dominik Vavrečka</p>
-                </a></div>
-            </div>
-            <div class="contact-row">
-                <div class="fake-h4 mb-2"><a href="https://www.youtube.com/@elementswimming8589" class="text-color-es d-flex align-items-center">
-                    <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 576 512" style="width: 40px; height: 40px; fill: black;">
-                        <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                        <path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/>
-                    </svg>
-                    <p class="m-0 px-3">Youtube</p>
-                </a></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-<div class="container">
-    <footer class="d-flex flex-wrap justify-content-center align-items-center py-4 my-4 border-top">
-        <p class="col-12 col-md-4 mb-0 text-muted">&copy; 2025 Element swimming | <a class="light-gray no-decoration" href="https://www.linkedin.com/in/michael-sláma-a195641a0/">Michael Sláma</a></p>
-
-        <a href="/" class="col-12 col-md-4 d-flex align-items-center justify-content-center mb-md-0 me-md-auto link-dark text-decoration-none">
-            <img src="static/images/main/basic_logo.webp" title="Element Swimming" alt="Logo Element Swimming - záhlaví" width="54" height="36"/>
-        </a>
-
-        <ul class="col-12 nav col-md-4 footer-nav">
-            <li class="nav-item"><a href="#home" class="nav-link px-2 text-muted">Home</a></li>
-            <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
-            <li class="nav-item"><a href="#services" class="nav-link px-2 text-muted">Services</a></li>
-            <li class="nav-item"><a href="#career" class="nav-link px-2 text-muted">Career</a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Contact</a></li>
-        </ul>
     </footer>
-</div>
 
-<!-- Services Modals  -->
-<div class="modal fade" id="PragueModal" tabindex="-1" aria-labelledby="PragueModal" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content px-2">
-            <div class="modal-header text-center">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="row row-cols-1 align-items-stretch pb-3">
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-3 display-6 lh-1 fw-bold pr-2">Individual lessons</p>
-                                    <p class="mb-3 display-cust lh-1 fw-bold">999 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-                                            Are you tired of "circling the wall"? We offer you meaningful training so that you're under the watchful eye of a professional and know you're in a workout that's set up to lead to improvement in your goals.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-4 display-6 lh-1 fw-bold">Lessons for pairs</p>
-                                    <p class="mb-4 display-cust lh-1 fw-bold">1199 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-                                            Don't you like to do sports alone? Do you prefer to go with your girlfriend,
-                                            colleague, brother, sister or grandmother? Then don't hesitate, take whoever
-                                            you normally go with and swim.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-4 display-6 lh-1 fw-bold">Group lessons</p>
-                                    <p class="mb-4 display-cust lh-1 fw-bold">From 1499 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-                                            Lessons when those who fit together in terms of performance or those who swim as a group come together.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-3 display-6 lh-1 fw-bold pr-2">Lessons for nonswimmers</p>
-                                    <p class="mb-3 display-cust lh-1 fw-bold">1199 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-If you plan to learn to swim at a later age, or want someone who will be more dedicated to your kids than a coach who has 20 kids in a club, drop me a line.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-green rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-4 display-6 lh-1 fw-bold">Analysis of the technique</p>
-                                    <p class="mb-4 display-cust lh-1 fw-bold">2999 Kč</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3 text-justify long-text">
-                                        <small>
-                                            You've mastered the technique of YouTube videos but it's still not the same in the water?
-                                            Do you think you repeat the movements in the water as in the video but the expected
-                                            progress is nowhere? Well, here's something for you - Video analysis of the swimming
-                                            method with subsequent correction of the technique. Using this service, I will provide
-                                            you with a video recording of your swimming, which we will go through together both
-                                            theoretically and practically.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+    <!-- PRAGUE MODAL -->
+    <div class="modal fade" id="PragueModal" tabindex="-1" aria-labelledby="PragueModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content px-2">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-            </div>
-            <div class="row row-cols-1 align-items-stretch pb-3 px-4 g-2">
-                <div class="d-flex gap-2 flex-column modal-title text-muted wh-100 px-3 small">
-                    <span>
-                        **Prices are valid from 02.05.2025
-                    </span>
-                    <span>
-                        **Rules for lessons of all kinds:
-                    </span>
-                    <ul>
-                        <li>
-                            A lesson can be cancelled up to 24 hours before the lesson.
-                        </li>
-                        <li>
-If the client cancels the training on the day of the training the client will pay a cancellation fee equal to the full price of the lesson
-                        </li>
-                        <li>
-If the cancellation of the training on a given day is on our side, the client has the next training free of charge.
-                        </li>
-                    </ul>
+                <div class="modal-body">
+                    <h2 class="modal-title-custom text-center">Price list - Prague</h2>
+                    <div class="table-responsive">
+                        <table class="table align-middle table-hover table-borderless">
+                            <tbody>
+                                <tr>
+                                    <td class="service-name">Individual lessons</td>
+                                    <td class="w-50 text-secondary">One-on-one training with a coach, detailed analysis,
+                                        immediate feedback.</td>
+                                    <td class="text-end"><span class="price-tag">from 999&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Lessons for pairs</td>
+                                    <td class="text-secondary">Training with a coach for two swimmers, motivate each
+                                        other and save money.</td>
+                                    <td class="text-end"><span class="price-tag">from 1199&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Group lessons</td>
+                                    <td class="text-secondary">Training for a group of swimmers with similar
+                                        performance.</td>
+                                    <td class="text-end"><span class="price-tag">from 1499&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Lessons for nonswimmers</td>
+                                    <td class="text-secondary">Special individual lessons for complete beginners,
+                                        children or shy swimmers.</td>
+                                    <td class="text-end"><span class="price-tag">from 1199&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Analysis of the technique</td>
+                                    <td class="text-secondary">Professional video analysis and subsequent style
+                                        correction with a coach.</td>
+                                    <td class="text-end"><span class="price-tag">2999&nbsp;Kč</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <small class="text-secondary">Prices valid from 1.1.2026.
+                        <br>
+                        <ul class="mt-2 px-4 small">
+                            <li>A lesson can be cancelled up to 24 hours before the lesson.</li>
+                            <li>If the client cancels the training on the day of the training the client will pay a
+                                cancellation fee equal to the full price of the lesson.</li>
+                            <li>If the cancellation of the training on a given day is on our side, the client has the
+                                next training free of charge.</li>
+                        </ul>
+                    </small>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="modal fade" id="BrnoModal" tabindex="-1" aria-labelledby="BrnoModal" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content px-2">
-            <div class="modal-header text-center">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="row row-cols-1 align-items-stretch pb-3">
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-3 display-6 lh-1 fw-bold pr-2">Individual lessons</p>
-                                    <p class="mb-3 display-cust lh-1 fw-bold">799 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-                                            Are you tired of "circling the wall"? We offer you meaningful training so that you're under the watchful eye of a professional and know you're in a workout that's set up to lead to improvement in your goals.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-4 display-6 lh-1 fw-bold">Lessons for pairs</p>
-                                    <p class="mb-4 display-cust lh-1 fw-bold">899 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-                                            Don't you like to do sports alone? Do you prefer to go with your girlfriend,
-                                            colleague, brother, sister or grandmother? Then don't hesitate, take whoever
-                                            you normally go with and swim.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-4 display-6 lh-1 fw-bold">Group lessons</p>
-                                    <p class="mb-4 display-cust lh-1 fw-bold">From 999 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-                                            Lessons when those who fit together in terms of performance or those who swim as a group come together.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-3 display-6 lh-1 fw-bold pr-2">Lessons for nonswimmers</p>
-                                    <p class="mb-3 display-cust lh-1 fw-bold">899 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-                                            If you plan to learn to swim at a later age, or want someone who will be more dedicated to your kids than a coach who has 20 kids in a club, drop me a line.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-green rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-4 display-6 lh-1 fw-bold">Analysis of the technique</p>
-                                    <p class="mb-4 display-cust lh-1 fw-bold">2499 Kč</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3 text-justify long-text">
-                                        <small>
-                                            You've mastered the technique of YouTube videos but it's still not the same in the water?
-                                            Do you think you repeat the movements in the water as in the video but the expected
-                                            progress is nowhere? Well, here's something for you - Video analysis of the swimming
-                                            method with subsequent correction of the technique. Using this service, I will provide
-                                            you with a video recording of your swimming, which we will go through together both
-                                            theoretically and practically.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+    <!-- BRNO MODAL -->
+    <div class="modal fade" id="BrnoModal" tabindex="-1" aria-labelledby="BrnoModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content px-2">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-            </div>
-            <div class="row row-cols-1 align-items-stretch pb-3 px-4 g-2">
-                <div class="d-flex gap-2 flex-column modal-title text-muted wh-100 px-3 small">
-                    <span>
-                        **Prices are valid from 02.05.2025
-                    </span>
-                    <span>
-                        **Rules for lessons of all kinds:
-                    </span>
-                    <ul>
-                        <li>
-                            A lesson can be cancelled up to 24 hours before the lesson.
-                        </li>
-                        <li>
-If the client cancels the training on the day of the training the client will pay a cancellation fee equal to the full price of the lesson
-                        </li>
-                        <li>
-If the cancellation of the training on a given day is on our side, the client has the next training free of charge.
-                        </li>
-                    </ul>
+                <div class="modal-body">
+                    <h2 class="modal-title-custom text-center">Price list - Brno</h2>
+                    <div class="table-responsive">
+                        <table class="table align-middle table-hover table-borderless">
+                            <tbody>
+                                <tr>
+                                    <td class="service-name">Individual lessons</td>
+                                    <td class="text-secondary">One-on-one with a coach at a pool in Brno.</td>
+                                    <td class="text-end"><span class="price-tag">799&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Lessons for pairs</td>
+                                    <td class="text-secondary">Training for 2 people with a shared coach.</td>
+                                    <td class="text-end"><span class="price-tag">899&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Group lessons</td>
+                                    <td class="text-secondary">Group training for similar swimmers.</td>
+                                    <td class="text-end"><span class="price-tag">from 999&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Lessons for nonswimmers</td>
+                                    <td class="text-secondary">Special individual lesson for complete beginners or
+                                        children.</td>
+                                    <td class="text-end"><span class="price-tag">899&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Analysis of the technique</td>
+                                    <td class="text-secondary">Video analysis and personal feedback with a coach.</td>
+                                    <td class="text-end"><span class="price-tag">2499&nbsp;Kč</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <small class="text-secondary">Prices valid from 1.1.2026.
+                        <br>
+                        <ul class="mt-2 px-4 small">
+                            <li>A lesson can be cancelled up to 24 hours before the lesson.</li>
+                            <li>If the client cancels the training on the day of the training the client will pay a
+                                cancellation fee equal to the full price of the lesson.</li>
+                            <li>If the cancellation of the training on a given day is on our side, the client has the
+                                next training free of charge.</li>
+                        </ul>
+                    </small>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="modal fade" id="OlomoucModal" tabindex="-1" aria-labelledby="OlomoucModal" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content px-2">
-            <div class="modal-header text-center">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="row row-cols-1 align-items-stretch pb-3">
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-3 display-6 lh-1 fw-bold pr-2">Individual lessons</p>
-                                    <p class="mb-3 display-cust lh-1 fw-bold">649 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-                                            Are you tired of "circling the wall"? We offer you meaningful
-                                            training so that you're under the watchful eye of a professional
-                                            and know you're in a workout that's set up to lead to improvement in your goals.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-4 display-6 lh-1 fw-bold">Lessons for pairs</p>
-                                    <p class="mb-4 display-cust lh-1 fw-bold">699 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-                                            Don't you like to do sports alone? Do you prefer to go with your girlfriend,
-                                            colleague, brother, sister or grandmother? Then don't hesitate, take whoever
-                                            you normally go with and swim.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-4 display-6 lh-1 fw-bold">Group lessons</p>
-                                    <p class="mb-4 display-cust lh-1 fw-bold">From 799 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-                                            Lessons when those who fit together in terms of performance
-                                            or those who swim as a group come together.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-3 display-6 lh-1 fw-bold pr-2">Lessons for nonswimmers</p>
-                                    <p class="mb-3 display-cust lh-1 fw-bold">799 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-                                            If you plan to learn to swim at a later age, or want someone
-                                            who will be more dedicated to your kids than a coach who has
-                                            20 kids in a club, drop me a line.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-green rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-4 display-6 lh-1 fw-bold">Analysis of the technique</p>
-                                    <p class="mb-4 display-cust lh-1 fw-bold">2499 Kč</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3 text-justify long-text">
-                                        <small>
-                                            You've mastered the technique of YouTube videos but it's still not the same in the water?
-                                            Do you think you repeat the movements in the water as in the video but the expected
-                                            progress is nowhere? Well, here's something for you - Video analysis of the swimming
-                                            method with subsequent correction of the technique. Using this service, I will provide
-                                            you with a video recording of your swimming, which we will go through together both
-                                            theoretically and practically.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+    <!-- OSTRAVA MODAL -->
+    <div class="modal fade" id="OstravaModal" tabindex="-1" aria-labelledby="OstravaModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content px-2">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-            </div>
-            <div class="row row-cols-1 align-items-stretch pb-3 px-4 g-2">
-                <div class="d-flex gap-2 flex-column modal-title text-muted wh-100 px-3 small">
-                    <span>
-                        **Prices are valid from 02.05.2025
-                    </span>
-                    <span>
-                        **Rules for lessons of all kinds:
-                    </span>
-                    <ul>
-                        <li>
-                            A lesson can be cancelled up to 24 hours before the lesson.
-                        </li>
-                        <li>
-If the client cancels the training on the day of the training the client will pay a cancellation fee equal to the full price of the lesson
-                        </li>
-                        <li>
-If the cancellation of the training on a given day is on our side, the client has the next training free of charge.
-                        </li>
-                    </ul>
+                <div class="modal-body">
+                    <h2 class="modal-title-custom text-center">Price list - Ostrava</h2>
+                    <div class="table-responsive">
+                        <table class="table align-middle table-hover table-borderless">
+                            <tbody>
+                                <tr>
+                                    <td class="service-name">Individual lessons</td>
+                                    <td class="text-secondary">Personal training with a coach at a pool in Ostrava.</td>
+                                    <td class="text-end"><span class="price-tag">749&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Lessons for pairs</td>
+                                    <td class="text-secondary">Training for 2 people under the supervision of one coach.
+                                    </td>
+                                    <td class="text-end"><span class="price-tag">799&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Group lessons</td>
+                                    <td class="text-secondary">Training group for colleagues, friends...</td>
+                                    <td class="text-end"><span class="price-tag">from 899&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Lessons for nonswimmers</td>
+                                    <td class="text-secondary">Individual instruction even for complete beginners!</td>
+                                    <td class="text-end"><span class="price-tag">799&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Analysis of the technique</td>
+                                    <td class="text-secondary">Video analysis of style and expert consultation.</td>
+                                    <td class="text-end"><span class="price-tag">2499&nbsp;Kč</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <small class="text-secondary">Prices valid from 1.1.2026.
+                        <br>
+                        <ul class="mt-2 px-4 small">
+                            <li>A lesson can be cancelled up to 24 hours before the lesson.</li>
+                            <li>If the client cancels the training on the day of the training the client will pay a
+                                cancellation fee equal to the full price of the lesson.</li>
+                            <li>If the cancellation of the training on a given day is on our side, the client has the
+                                next training free of charge.</li>
+                        </ul>
+                    </small>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="modal fade" id="OstravaModal" tabindex="-1" aria-labelledby="OstravaModal" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content px-2">
-            <div class="modal-header text-center">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="row row-cols-1 align-items-stretch pb-3">
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-3 display-6 lh-1 fw-bold pr-2">Individual lessons</p>
-                                    <p class="mb-3 display-cust lh-1 fw-bold">749 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-                                            Are you tired of "circling the wall"? We offer you meaningful
-                                            training so that you're under the watchful eye of a professional
-                                            and know you're in a workout that's set up to lead to improvement in your goals.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-4 display-6 lh-1 fw-bold">Lessons for pairs</p>
-                                    <p class="mb-4 display-cust lh-1 fw-bold">799 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-                                            Don't you like to do sports alone? Do you prefer to go with your girlfriend,
-                                            colleague, brother, sister or grandmother? Then don't hesitate, take whoever
-                                            you normally go with and swim.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-4 display-6 lh-1 fw-bold">Group lessons</p>
-                                    <p class="mb-4 display-cust lh-1 fw-bold">From 899 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-                                            Lessons when those who fit together in terms of performance
-                                            or those who swim as a group come together.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-3 display-6 lh-1 fw-bold pr-2">Lessons for nonswimmers</p>
-                                    <p class="mb-3 display-cust lh-1 fw-bold">799 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3">
-                                        <small>
-                                            If you plan to learn to swim at a later age, or want someone
-                                            who will be more dedicated to your kids than a coach who has
-                                            20 kids in a club, drop me a line.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-green rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-4 display-6 lh-1 fw-bold">Analysis of the technique</p>
-                                    <p class="mb-4 display-cust lh-1 fw-bold">2499 Kč</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3 text-justify long-text">
-                                        <small>
-                                            You've mastered the technique of YouTube videos but it's still not the same in the water?
-                                            Do you think you repeat the movements in the water as in the video but the expected
-                                            progress is nowhere? Well, here's something for you - Video analysis of the swimming
-                                            method with subsequent correction of the technique. Using this service, I will provide
-                                            you with a video recording of your swimming, which we will go through together both
-                                            theoretically and practically.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+    <!-- OLOMOUC MODAL -->
+    <div class="modal fade" id="OlomoucModal" tabindex="-1" aria-labelledby="OlomoucModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content px-2">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-            </div>
-            <div class="row row-cols-1 align-items-stretch pb-3 px-4 g-2">
-                <div class="d-flex gap-2 flex-column modal-title text-muted wh-100 px-3 small">
-                    <span>
-                        **Prices are valid from 02.05.2025
-                    </span>
-                    <span>
-                        **Rules for lessons of all kinds:
-                    </span>
-                    <ul>
-                        <li>
-                            A lesson can be cancelled up to 24 hours before the lesson.
-                        </li>
-                        <li>
-If the client cancels the training on the day of the training the client will pay a cancellation fee equal to the full price of the lesson
-                        </li>
-                        <li>
-If the cancellation of the training on a given day is on our side, the client has the next training free of charge.
-                        </li>
-                    </ul>
+                <div class="modal-body">
+                    <h2 class="modal-title-custom text-center">Price list - Olomouc</h2>
+                    <div class="table-responsive">
+                        <table class="table align-middle table-hover table-borderless">
+                            <tbody>
+                                <tr>
+                                    <td class="service-name">Individual lessons</td>
+                                    <td class="text-secondary">Personal training with a coach at a pool in Olomouc.</td>
+                                    <td class="text-end"><span class="price-tag">649&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Lessons for pairs</td>
+                                    <td class="text-secondary">Training for two that motivates and is fun.</td>
+                                    <td class="text-end"><span class="price-tag">699&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Group lessons</td>
+                                    <td class="text-secondary">Group of friends, colleagues or family with a coach.</td>
+                                    <td class="text-end"><span class="price-tag">from 799&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Lessons for nonswimmers</td>
+                                    <td class="text-secondary">Suitable even for complete beginners and children.</td>
+                                    <td class="text-end"><span class="price-tag">799&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Analysis of the technique</td>
+                                    <td class="text-secondary">Video analysis and personal consultation in Olomouc.</td>
+                                    <td class="text-end"><span class="price-tag">2499&nbsp;Kč</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <small class="text-secondary">Prices valid from 1.1.2026.
+                        <br>
+                        <ul class="mt-2 px-4 small">
+                            <li>A lesson can be cancelled up to 24 hours before the lesson.</li>
+                            <li>If the client cancels the training on the day of the training the client will pay a
+                                cancellation fee equal to the full price of the lesson.</li>
+                            <li>If the cancellation of the training on a given day is on our side, the client has the
+                                next training free of charge.</li>
+                        </ul>
+                    </small>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="modal fade" id="OnlineModal" tabindex="-1" aria-labelledby="OnlineModal" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content px-2">
-            <div class="modal-header text-center">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="row row-cols-1 align-items-stretch pb-3">
-                    <div class="col">
-                        <div class="card card-cover h-90 overflow-hidden text-white bg-color-es rounded-5 shadow-lg">
-                            <div class="d-flex flex-column h-50 p-5 pb-4 text-white text-shadow-1">
-                                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                    <p class="mb-3 display-6 lh-1 fw-bold pr-2">Consultation</p>
-                                    <p class="mb-3 display-cust lh-1 fw-bold">From 199 Kč/hour</p>
-                                </div>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="d-flex align-items-center me-3 text-justify long-text">
-                                        <small>
-                                            Do you feel like a fish out of water in the pool? Do you know what to do and know
-                                            multiple swimming techniques? Do you feel that you are tired of swimming what you
-                                            remember from your coach in primary school? Get in touch, and we'll figure out
-                                            workouts that you'll enjoy.
-                                        </small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+    <!-- MLADA BOLESLAV MODAL -->
+    <div class="modal fade" id="MladaBoleslavModal" tabindex="-1" aria-labelledby="MladaBoleslavModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content px-2">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-            </div>
-            <div class="row row-cols-1 align-items-stretch pb-3 px-4 g-2">
-                <div class="d-flex gap-2 flex-column modal-title text-muted wh-100 px-3 small">
-                    <span>
-                        **Prices are valid from 02.05.2025
-                    </span>
-                    <span>
-                        **Rules for lessons of all kinds:
-                    </span>
-                    <ul>
-                        <li>
-                            A lesson can be cancelled up to 24 hours before the lesson.
-                        </li>
-                        <li>
-                            If the client cancels the training on the day of the training the client will pay a cancellation fee equal to the full price of the lesson
-                        </li>
-                        <li>
-                            If the cancellation of the training on a given day is on our side, the client has the next training free of charge.
-                        </li>
-                    </ul>
+                <div class="modal-body">
+                    <h2 class="modal-title-custom text-center">Price list - Mladá Boleslav</h2>
+                    <div class="table-responsive">
+                        <table class="table align-middle table-hover table-borderless">
+                            <tbody>
+                                <tr>
+                                    <td class="service-name">Individual lessons</td>
+                                    <td class="text-secondary">One-on-one with a coach at a pool in Brno.</td>
+                                    <td class="text-end"><span class="price-tag">799&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Lessons for pairs</td>
+                                    <td class="text-secondary">Training for 2 people with a shared coach.</td>
+                                    <td class="text-end"><span class="price-tag">899&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Group lessons</td>
+                                    <td class="text-secondary">Group training for similar swimmers.</td>
+                                    <td class="text-end"><span class="price-tag">from 999&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Lessons for nonswimmers</td>
+                                    <td class="text-secondary">Special individual lesson for complete beginners or
+                                        children.</td>
+                                    <td class="text-end"><span class="price-tag">899&nbsp;Kč/hour</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="service-name">Analysis of the technique</td>
+                                    <td class="text-secondary">Video analysis and personal feedback with a coach.</td>
+                                    <td class="text-end"><span class="price-tag">2499&nbsp;Kč</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <small class="text-secondary">Prices valid from 1.1.2026.
+                        <br>
+                        <ul class="mt-2 px-4 small">
+                            <li>A lesson can be cancelled up to 24 hours before the lesson.</li>
+                            <li>If the client cancels the training on the day of the training the client will pay a
+                                cancellation fee equal to the full price of the lesson.</li>
+                            <li>If the cancellation of the training on a given day is on our side, the client has the
+                                next training free of charge.</li>
+                        </ul>
+                    </small>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    <!-- ONLINE MODAL -->
+    <div class="modal fade" id="OnlineModal" tabindex="-1" aria-labelledby="OnlineModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content px-2">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h2 class="modal-title-custom text-center">Price list - Online</h2>
+                    <div class="table-responsive">
+                        <table class="table align-middle table-hover table-borderless">
+                            <tbody>
+                                <tr>
+                                    <td class="service-name">Consultation</td>
+                                    <td class="text-secondary">Online consultation or training plan. Tailored to your
+                                        needs even remotely.</td>
+                                    <td class="text-end"><span class="price-tag">from 199&nbsp;Kč/hour</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <small class="text-secondary">Prices valid from 1.1.2026.
+                        <br>
+                        <ul class="mt-2 px-4 small">
+                            <li>A lesson can be cancelled up to 24 hours before the lesson.</li>
+                            <li>If the client cancels the training on the day of the training the client will pay a
+                                cancellation fee equal to the full price of the lesson.</li>
+                            <li>If the cancellation of the training on a given day is on our side, the client has the
+                                next training free of charge.</li>
+                        </ul>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-    // add padding top to show content behind navbar
-    $('body').css('padding-top', $('.navbar').outerHeight() + 'px')
-
-    // detect scroll top or down
-    if ($('.smart-scroll').length > 0) { // check if element exists
-        var last_scroll_top = 0;
-        $(window).on('scroll', function () {
-            scroll_top = $(this).scrollTop();
-            if (scroll_top < last_scroll_top || scroll_top < 0 || scroll_top == 0) {
-                $('.smart-scroll').removeClass('scrolled-down').addClass('scrolled-up');
-            } else {
-                $('.smart-scroll').removeClass('scrolled-up').addClass('scrolled-down');
-            }
-            last_scroll_top = scroll_top;
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
         });
-    }
-</script>
+
+        // nav shrink on scroll
+        $(function () {
+            $(window).on('scroll', function () {
+                if ($(window).scrollTop() > 24) {
+                    $('.navbar').addClass('shadow-sm')
+                } else {
+                    $('.navbar').removeClass('shadow-sm')
+                }
+            });
+        });
+    </script>
+    <script>
+        // add padding top to show content behind navbar
+        $('body').css('padding-top', $('.navbar').outerHeight() + 'px')
+    </script>
 </body>
 
 <!-- Credits
-  https://getbootstrap.com/
-  Home photo - Photo by Kindel Media from Pexels: https://www.pexels.com/photo/photo-of-an-athlete-swimming-underwater-8688566/
-
-  Navbar links hover effect:
-    https://codepen.io/martinwolf/pen/eNNdme
-
-  Navbar scroll effect:
-    https://bootstrap-menu.com/detail-autohide.html
-
   Service section photos:
     Prague - Photo by JESHOOTS.com from Pexels
     Brno - https://pixabay.com/images/id-4902615/
