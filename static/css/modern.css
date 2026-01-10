@@ -576,8 +576,13 @@ a {
     transition: transform 0.4s ease;
 }
 
-.lang-switch:hover i {
+.nav-item:hover .lang-switch i {
     transform: rotate(180deg);
+    color: var(--ocean-blue);
+}
+
+.nav-item:hover .lang-target {
+    color: var(--ocean-blue);
 }
 
 /* Mobile Optimization */
