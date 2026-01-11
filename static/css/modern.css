@@ -232,6 +232,13 @@ h1.display-3 {
     background: linear-gradient(135deg, #2998C6 0%, #1e3a8a 100%);
 }
 
+.btn-modern.btn-sm,
+.btn-modern-outline.btn-sm {
+    min-height: 2.5rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.85rem;
+}
+
 /* Hero Section */
 .hero-glass {
     background: rgba(255, 255, 255, 0.8);

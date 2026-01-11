@@ -47,8 +47,7 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-custom smart-scroll">
         <div class="container-xl py-2">
             <a class="navbar-brand d-flex align-items-center gap-2" href="/">
-                <img src="static/images/main/logo_small.png" alt="Element Swimming Logo"
-                    height="36">
+                <img src="static/images/main/logo_small.png" alt="Element Swimming Logo" height="36">
                 <div class="d-flex align-items-center lh-1">
                     <span class="brand-element">Element</span>
                     <span class="brand-swimming">Swimming</span>
@@ -194,8 +193,9 @@
                 V <span class="fw-bold text-primary">Element Swimming</span> věříme v individuální přístup a
                 spolupracujeme pouze s certifikovanými trenéry ČSPS.
                 <br>
-                Nabízíme individuální plavecké služby na míru v <span class="fw-bold">Praze, Brně, Ostravě, Olomouci, Mladé
-                Boleslavi</span> i <span class="fw-bold">Online</span>.
+                Nabízíme individuální plavecké služby na míru v <span class="fw-bold">Praze, Brně, Ostravě, Olomouci,
+                    Mladé
+                    Boleslavi</span> i <span class="fw-bold">Online</span>.
                 <br>
                 <span class="fw-bold">Pro více informací a ceny vyberte své město níže.</span>
             </p>
@@ -246,8 +246,8 @@
                 </button>
             </div>
             <div class="col" data-aos="flip-left" data-aos-delay="400">
-                <button id="mlada_boleslav" class="service-card-btn" data-bs-toggle="modal" data-bs-target="#MladaBoleslavModal"
-                    aria-label="Mladá Boleslav">
+                <button id="mlada_boleslav" class="service-card-btn" data-bs-toggle="modal"
+                    data-bs-target="#MladaBoleslavModal" aria-label="Mladá Boleslav">
                     <div class="service-card"
                         style="background: url('static/images/services/mlada_boleslav.webp') center/cover no-repeat;">
                         <div class="service-overlay">
@@ -492,25 +492,38 @@
     <!-- Footer Modern -->
     <footer class="footer-modern">
         <div class="container-xl">
-            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
-                <div class="mb-3 mb-md-0 small text-muted">
-                    &copy; 2026 Element Swimming &mdash;
-                    <a class="text-muted text-decoration-none"
-                        href="https://www.linkedin.com/in/michael-sláma-a195641a0/">Michael Sláma</a>
+            <div class="row align-items-center gy-3">
+                <div class="col-md-4 text-center text-md-start order-2 order-md-1">
+                    <div class="small text-muted">
+                        &copy; 2026 Element Swimming &mdash;
+                        <a class="text-muted text-decoration-none"
+                            href="https://www.linkedin.com/in/michael-sláma-a195641a0/">Michael Sláma</a>
+                    </div>
                 </div>
-                <a href="/" class="mb-3 mb-md-0">
-                    <img src="static/images/main/logo_small.png" alt="Element Swimming Logo"
-                        height="36">
-                </a>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">O nás</a></li>
-                    <li class="nav-item"><a href="#services" class="nav-link px-2 text-muted">Služby</a></li>
-                    <li class="nav-item"><a href="#career" class="nav-link px-2 text-muted">Kariéra</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Kontakt</a></li>
-                </ul>
+
+                <div class="col-md-4 text-center order-1 order-md-2">
+                    <a href="/" class="d-block mb-3 mb-md-0">
+                        <img src="static/images/main/logo_small.png" alt="Element Swimming Logo" height="36">
+                    </a>
+                </div>
+
+                <div class="col-md-4 order-3 order-md-3">
+                    <ul class="nav justify-content-center justify-content-md-end">
+                        <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">O nás</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-link px-2 text-muted">Služby</a></li>
+                        <li class="nav-item"><a href="#career" class="nav-link px-2 text-muted">Kariéra</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Kontakt</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
+
+    <!-- Cookie Preferences Button -->
+    <div class="container-xl text-center pb-4">
+        <a href="#" id="open_preferences_center" class="btn-modern-outline btn-sm text-decoration-none border-0 py-0"
+            style="font-size: 0.75rem; opacity: 0.7;">Update cookies preferences</a>
+    </div>
 
     <!-- PRAGUE MODAL -->
     <div class="modal fade" id="PragueModal" tabindex="-1" aria-labelledby="PragueModal" aria-hidden="true">
@@ -526,12 +539,14 @@
                             <tbody>
                                 <tr>
                                     <td class="service-name">Individuální lekce</td>
-                                    <td class="w-50 text-secondary">Individuální trénink s trenérem, detailní analýza a okamžitá zpětná vazba.</td>
+                                    <td class="w-50 text-secondary">Individuální trénink s trenérem, detailní analýza a
+                                        okamžitá zpětná vazba.</td>
                                     <td class="text-end"><span class="price-tag">od 999&nbsp;Kč/hod</span></td>
                                 </tr>
                                 <tr>
                                     <td class="service-name">Lekce pro dvojice</td>
-                                    <td class="text-secondary">Trénink s trenérem pro dva plavce, navzájem se motivujete i šetříte.</td>
+                                    <td class="text-secondary">Trénink s trenérem pro dva plavce, navzájem se motivujete
+                                        i šetříte.</td>
                                     <td class="text-end"><span class="price-tag">od 1199&nbsp;Kč/hod</span></td>
                                 </tr>
                                 <tr>
@@ -541,12 +556,14 @@
                                 </tr>
                                 <tr>
                                     <td class="service-name">Lekce pro (ne)plavce</td>
-                                    <td class="text-secondary">Individuální lekce pro úplné začátečníky, děti nebo nesmělé plavce.</td>
+                                    <td class="text-secondary">Individuální lekce pro úplné začátečníky, děti nebo
+                                        nesmělé plavce.</td>
                                     <td class="text-end"><span class="price-tag">od 1199&nbsp;Kč/hod</span></td>
                                 </tr>
                                 <tr>
                                     <td class="service-name">Rozbor techniky</td>
-                                    <td class="text-secondary">Profesionální videoanalýza a následný rozbor stylu s trenérem.</td>
+                                    <td class="text-secondary">Profesionální videoanalýza a následný rozbor stylu s
+                                        trenérem.</td>
                                     <td class="text-end"><span class="price-tag">2999&nbsp;Kč</span></td>
                                 </tr>
                             </tbody>
@@ -578,12 +595,14 @@
                             <tbody>
                                 <tr>
                                     <td class="service-name">Individuální lekce</td>
-                                    <td class="text-secondary">Individuální trénink s trenérem, detailní analýza a okamžitá zpětná vazba.</td>
+                                    <td class="text-secondary">Individuální trénink s trenérem, detailní analýza a
+                                        okamžitá zpětná vazba.</td>
                                     <td class="text-end"><span class="price-tag">799&nbsp;Kč/hod</span></td>
                                 </tr>
                                 <tr>
                                     <td class="service-name">Lekce pro dvojice</td>
-                                    <td class="text-secondary">Trénink s trenérem pro dva plavce, navzájem se motivujete i šetříte.</td>
+                                    <td class="text-secondary">Trénink s trenérem pro dva plavce, navzájem se motivujete
+                                        i šetříte.</td>
                                     <td class="text-end"><span class="price-tag">899&nbsp;Kč/hod</span></td>
                                 </tr>
                                 <tr>
@@ -593,13 +612,15 @@
                                 </tr>
                                 <tr>
                                     <td class="service-name">Lekce pro (ne)plavce</td>
-                                    <td class="text-secondary">Individuální lekce pro úplné začátečníky, děti nebo nesmělé plavce.
+                                    <td class="text-secondary">Individuální lekce pro úplné začátečníky, děti nebo
+                                        nesmělé plavce.
                                     </td>
                                     <td class="text-end"><span class="price-tag">899&nbsp;Kč/hod</span></td>
                                 </tr>
                                 <tr>
                                     <td class="service-name">Rozbor techniky</td>
-                                    <td class="text-secondary">Profesionální videoanalýza a následný rozbor stylu s trenérem.</td>
+                                    <td class="text-secondary">Profesionální videoanalýza a následný rozbor stylu s
+                                        trenérem.</td>
                                     <td class="text-end"><span class="price-tag">2499&nbsp;Kč</span></td>
                                 </tr>
                             </tbody>
@@ -631,12 +652,14 @@
                             <tbody>
                                 <tr>
                                     <td class="service-name">Individuální lekce</td>
-                                    <td class="text-secondary">Individuální trénink s trenérem, detailní analýza a okamžitá zpětná vazba.</td>
+                                    <td class="text-secondary">Individuální trénink s trenérem, detailní analýza a
+                                        okamžitá zpětná vazba.</td>
                                     <td class="text-end"><span class="price-tag">749&nbsp;Kč/hod</span></td>
                                 </tr>
                                 <tr>
                                     <td class="service-name">Lekce pro dvojice</td>
-                                    <td class="text-secondary">Trénink s trenérem pro dva plavce, navzájem se motivujete i šetříte.</td>
+                                    <td class="text-secondary">Trénink s trenérem pro dva plavce, navzájem se motivujete
+                                        i šetříte.</td>
                                     <td class="text-end"><span class="price-tag">799&nbsp;Kč/hod</span></td>
                                 </tr>
                                 <tr>
@@ -646,12 +669,14 @@
                                 </tr>
                                 <tr>
                                     <td class="service-name">Lekce pro (ne)plavce</td>
-                                    <td class="text-secondary">Individuální lekce pro úplné začátečníky, děti nebo nesmělé plavce.</td>
+                                    <td class="text-secondary">Individuální lekce pro úplné začátečníky, děti nebo
+                                        nesmělé plavce.</td>
                                     <td class="text-end"><span class="price-tag">799&nbsp;Kč/hod</span></td>
                                 </tr>
                                 <tr>
                                     <td class="service-name">Rozbor techniky</td>
-                                    <td class="text-secondary">Profesionální videoanalýza a následný rozbor stylu s trenérem.</td>
+                                    <td class="text-secondary">Profesionální videoanalýza a následný rozbor stylu s
+                                        trenérem.</td>
                                     <td class="text-end"><span class="price-tag">2499&nbsp;Kč</span></td>
                                 </tr>
                             </tbody>
@@ -683,12 +708,14 @@
                             <tbody>
                                 <tr>
                                     <td class="service-name">Individuální lekce</td>
-                                    <td class="text-secondary">Individuální trénink s trenérem, detailní analýza a okamžitá zpětná vazba.</td>
+                                    <td class="text-secondary">Individuální trénink s trenérem, detailní analýza a
+                                        okamžitá zpětná vazba.</td>
                                     <td class="text-end"><span class="price-tag">649&nbsp;Kč/hod</span></td>
                                 </tr>
                                 <tr>
                                     <td class="service-name">Lekce pro dvojice</td>
-                                    <td class="text-secondary">Trénink s trenérem pro dva plavce, navzájem se motivujete i šetříte.</td>
+                                    <td class="text-secondary">Trénink s trenérem pro dva plavce, navzájem se motivujete
+                                        i šetříte.</td>
                                     <td class="text-end"><span class="price-tag">699&nbsp;Kč/hod</span></td>
                                 </tr>
                                 <tr>
@@ -698,12 +725,14 @@
                                 </tr>
                                 <tr>
                                     <td class="service-name">Lekce pro (ne)plavce</td>
-                                    <td class="text-secondary">Individuální lekce pro úplné začátečníky, děti nebo nesmělé plavce.</td>
+                                    <td class="text-secondary">Individuální lekce pro úplné začátečníky, děti nebo
+                                        nesmělé plavce.</td>
                                     <td class="text-end"><span class="price-tag">799&nbsp;Kč/hod</span></td>
                                 </tr>
                                 <tr>
                                     <td class="service-name">Rozbor techniky</td>
-                                    <td class="text-secondary">Profesionální videoanalýza a následný rozbor stylu s trenérem.</td>
+                                    <td class="text-secondary">Profesionální videoanalýza a následný rozbor stylu s
+                                        trenérem.</td>
                                     <td class="text-end"><span class="price-tag">2499&nbsp;Kč</span></td>
                                 </tr>
                             </tbody>
@@ -722,7 +751,8 @@
         </div>
     </div>
     <!-- MLADA BOLESLAV MODAL -->
-    <div class="modal fade" id="MladaBoleslavModal" tabindex="-1" aria-labelledby="MladaBoleslavModal" aria-hidden="true">
+    <div class="modal fade" id="MladaBoleslavModal" tabindex="-1" aria-labelledby="MladaBoleslavModal"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content px-2">
                 <div class="modal-header border-0">
@@ -735,12 +765,14 @@
                             <tbody>
                                 <tr>
                                     <td class="service-name">Individuální lekce</td>
-                                    <td class="text-secondary">Individuální trénink s trenérem, detailní analýza a okamžitá zpětná vazba.</td>
+                                    <td class="text-secondary">Individuální trénink s trenérem, detailní analýza a
+                                        okamžitá zpětná vazba.</td>
                                     <td class="text-end"><span class="price-tag">799&nbsp;Kč/hod</span></td>
                                 </tr>
                                 <tr>
                                     <td class="service-name">Lekce pro dvojice</td>
-                                    <td class="text-secondary">Trénink s trenérem pro dva plavce, navzájem se motivujete i šetříte.</td>
+                                    <td class="text-secondary">Trénink s trenérem pro dva plavce, navzájem se motivujete
+                                        i šetříte.</td>
                                     <td class="text-end"><span class="price-tag">899&nbsp;Kč/hod</span></td>
                                 </tr>
                                 <tr>
@@ -851,11 +883,12 @@
     </script>
 </body>
 <!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
-<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.2.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.2.0/cookie-consent.js"
+    charset="UTF-8"></script>
 <script type="text/javascript" charset="UTF-8">
-document.addEventListener('DOMContentLoaded', function () {
-cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"light","language":"cs","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"https://www.elementswimming.cz"});
-});
+    document.addEventListener('DOMContentLoaded', function () {
+        cookieconsent.run({ "notice_banner_type": "simple", "consent_type": "express", "palette": "light", "language": "cs", "page_load_consent_levels": ["strictly-necessary"], "notice_banner_reject_button_hide": false, "preferences_center_close_button_hide": false, "page_refresh_confirmation_buttons": false, "website_name": "https://www.elementswimming.cz" });
+    });
 </script>
 
 <!-- Google Analytics -->
@@ -875,7 +908,7 @@ cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palet
 
 <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
 
-<a href="#" id="open_preferences_center">Update cookies preferences</a>
+
 
 <!-- Credits
   Service section photos:
