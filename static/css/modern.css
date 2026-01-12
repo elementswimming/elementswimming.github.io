@@ -761,13 +761,17 @@ a {
     }
 
     .carousel-testimonial {
-        padding: 1rem 0.5rem !important;
+        padding: 1rem 1rem !important;
         /* Minimal padding */
     }
 
     .carousel-item .row>div {
         text-align: center !important;
-        padding: 0;
+    }
+
+    .carousel-item .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 
     .carousel-item img.rounded-4 {
@@ -993,5 +997,69 @@ button.cc-nb-changep:hover {
     button.cc-nb-changep {
         width: 100% !important;
         justify-content: center !important;
+    }
+
+    /* Fix Footer Logo Size on Mobile */
+    .footer-modern img {
+        height: auto !important;
+        max-width: 40px !important;
+    }
+}
+
+/* Landscape Mode Optimization (Mobile) */
+@media (max-height: 500px) and (orientation: landscape) {
+    .navbar-custom {
+        padding-top: 0.25rem !important;
+        padding-bottom: 0.25rem !important;
+        top: 0.5rem !important;
+    }
+
+    .navbar-brand img {
+        height: 28px !important;
+        /* Smaller logo */
+    }
+
+    .footer-modern {
+        margin: 0.5rem auto !important;
+    }
+
+    .footer-modern img {
+        height: auto !important;
+        max-width: 40px !important;
+        /* Even smaller for landscape */
+    }
+
+    /* Hide the cookies button bottom margin or make it more compact */
+    #open_preferences_center {
+        margin-bottom: 0.5rem !important;
+        font-size: 0.7rem !important;
+    }
+
+    .hero-glass {
+        margin-top: 4rem !important;
+        /* Adjust hero top margin safely */
+    }
+
+    /* Centered City Modals in Landscape */
+    .modal-dialog {
+        max-width: 90vw !important;
+        margin: auto !important;
+        display: flex !important;
+        align-items: center !important;
+        min-height: calc(100% - 1rem) !important;
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+
+    }
+
+    .modal-content {
+        height: auto !important;
+        border-radius: 24px !important;
+        overflow: hidden !important;
+    }
+
+    .modal-body {
+        overflow-y: auto !important;
+        padding-bottom: 2rem !important;
     }
 }
