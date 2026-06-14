@@ -1,0 +1,41 @@
+# Element Swimming
+
+Element Swimming provides swimming coaching and tailored swimming services in the Czech Republic and online.
+
+## Canonical pages
+
+- Czech: https://www.elementswimming.cz/
+- English: https://www.elementswimming.cz/index_en.html
+
+## Business facts
+
+- Name: Element Swimming
+- Founded: 2019
+- Founder: Dominik Vavrečka
+- Services: individual swimming lessons, lessons for pairs, group lessons, lessons for nonswimmers, swimming technique analysis, online consultations
+- Locations served: Prague/Praha, Brno, Ostrava, Olomouc, Mladá Boleslav, Online
+- Coaches: certified ČSPS coaches
+- Contact email: elementswimming@gmail.com
+- Phone: +420 725 956 042
+- Instagram: https://www.instagram.com/elementswimming_cz/
+- LinkedIn: https://www.linkedin.com/in/dominik-vavrečka-1a272a145/
+- YouTube: https://www.youtube.com/@elementswimming8589
+
+## Founder
+
+Dominik Vavrečka founded Element Swimming. The website states that he is a multiple Czech National Championships medalist, a participant in European and World Championships, and a coach at the University Sports Centre Victoria.
+
+## Prices
+
+Prices are listed on the website as valid from 1.1.2026.
+
+- Prague/Praha: individual lessons from 999 Kč/hour, pair lessons from 1199 Kč/hour, group lessons from 1499 Kč/hour, nonswimmer lessons from 1199 Kč/hour, technique analysis 2999 Kč
+- Brno: individual lessons 799 Kč/hour, pair lessons 899 Kč/hour, group lessons from 999 Kč/hour, nonswimmer lessons 899 Kč/hour, technique analysis 2499 Kč
+- Ostrava: individual lessons 749 Kč/hour, pair lessons 799 Kč/hour, group lessons from 899 Kč/hour, nonswimmer lessons 799 Kč/hour, technique analysis 2499 Kč
+- Olomouc: individual lessons 649 Kč/hour, pair lessons 699 Kč/hour, group lessons from 799 Kč/hour, nonswimmer lessons 799 Kč/hour, technique analysis 2499 Kč
+- Mladá Boleslav: individual lessons 799 Kč/hour, pair lessons 899 Kč/hour, group lessons from 999 Kč/hour, nonswimmer lessons 899 Kč/hour, technique analysis 2499 Kč
+- Online: consultations from 199 Kč/hour
+
+## Booking
+
+The website links to Google Forms for booking a training session and buying a voucher. Visitors can also contact Element Swimming by email, phone, Instagram, LinkedIn, or YouTube.
