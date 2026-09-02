@@ -109,6 +109,86 @@ h1.display-3 {
     /* Updated to brand blue */
 }
 
+/* FAQ Accordion */
+.faq-category {
+    margin-bottom: 2.5rem;
+}
+
+.faq-category:last-child {
+    margin-bottom: 0;
+}
+
+.faq-category-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.85rem;
+}
+
+.faq-category-heading i.bi {
+    color: var(--ocean-blue) !important;
+}
+
+.faq-category-heading i.bi-cash-coin {
+    position: relative;
+    top: 5px;
+}
+
+.faq-category-divider {
+    border: none;
+    border-top: 1px solid rgba(15, 23, 42, 0.1);
+    margin: 0 0 1.25rem;
+}
+
+.accordion {
+    /* Align Bootstrap's own corner-radius vars so first/last-of-type
+       rules don't fall back to the default 6px and leave gaps against
+       the item's 16px clip. */
+    --bs-accordion-border-radius: 16px;
+    --bs-accordion-inner-border-radius: 15px;
+}
+
+.accordion-item {
+    background: transparent;
+    border: none;
+    border-radius: 16px !important;
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+}
+
+.accordion-item:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-button {
+    background: transparent;
+    font-weight: 600;
+    color: var(--text-heading);
+    border-radius: 16px;
+    padding: 1.1rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.accordion-button:hover {
+    background: rgba(80, 182, 227, 0.1);
+    color: var(--ocean-blue);
+}
+
+.accordion-button:not(.collapsed) {
+    background: rgba(80, 182, 227, 0.1);
+    color: var(--ocean-blue);
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(80, 182, 227, 0.25);
+}
+
+.accordion-body {
+    background: transparent;
+    color: var(--text-main);
+}
+
 /* Navbar */
 .navbar-custom {
     background: rgba(255, 255, 255, 0.85) !important;
