@@ -250,6 +250,7 @@ h1.display-3 {
     transition: all 0.3s ease;
     border-radius: 12px;
     /* Added for pill shape */
+    white-space: nowrap;
 }
 
 /* Removed Underline ::after styles */
@@ -673,7 +674,7 @@ a {
 }
 
 /* Mobile Optimization */
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
     .navbar-collapse {
         background: rgba(255, 255, 255, 0.98);
         -webkit-backdrop-filter: blur(20px);
