@@ -172,3 +172,11 @@
   vertical-align: -.125em;
   fill: currentColor;
 }
+
+.author-text {
+    color: gainsboro;
+}
+
+.author-text:hover {
+    color: #6c757d;
+}
