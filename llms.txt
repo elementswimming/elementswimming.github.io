@@ -13,7 +13,7 @@ Element Swimming provides swimming coaching and tailored swimming services in th
 - Founded: 2019
 - Founder: Dominik Vavrečka
 - Services: individual swimming lessons, lessons for pairs, group lessons, lessons for nonswimmers, swimming technique analysis, online consultations
-- Locations served: Prague/Praha, Brno, Ostrava, Olomouc, Mladá Boleslav, Online
+- Locations served: Prague/Praha, Brno, Ostrava, Opava, Olomouc, Prostějov, Mladá Boleslav, Plzeň, Online
 - Coaches: certified ČSPS coaches
 - Contact email: elementswimming@gmail.com
 - Phone: +420 725 956 042
@@ -27,14 +27,17 @@ Dominik Vavrečka founded Element Swimming. The website states that he is a mult
 
 ## Prices
 
-Prices are listed on the website as valid from 1.1.2026.
+Prices are listed on the website as valid from 1.9.2026.
 
 - Prague/Praha: individual lessons from 999 Kč/hour, pair lessons from 1199 Kč/hour, group lessons from 1499 Kč/hour, nonswimmer lessons from 1199 Kč/hour, technique analysis 2999 Kč
-- Brno: individual lessons 799 Kč/hour, pair lessons 899 Kč/hour, group lessons from 999 Kč/hour, nonswimmer lessons 899 Kč/hour, technique analysis 2499 Kč
-- Ostrava: individual lessons 749 Kč/hour, pair lessons 799 Kč/hour, group lessons from 899 Kč/hour, nonswimmer lessons 799 Kč/hour, technique analysis 2499 Kč
-- Olomouc: individual lessons 649 Kč/hour, pair lessons 699 Kč/hour, group lessons from 799 Kč/hour, nonswimmer lessons 799 Kč/hour, technique analysis 2499 Kč
-- Mladá Boleslav: individual lessons 799 Kč/hour, pair lessons 899 Kč/hour, group lessons from 999 Kč/hour, nonswimmer lessons 899 Kč/hour, technique analysis 2499 Kč
-- Online: consultations from 199 Kč/hour
+- Brno: individual lessons 799 Kč/hour, pair lessons 999 Kč/hour, group lessons from 1199 Kč/hour, nonswimmer lessons 899 Kč/hour, technique analysis 2499 Kč
+- Ostrava: individual lessons 799 Kč/hour, pair lessons 899 Kč/hour, group lessons from 999 Kč/hour, nonswimmer lessons 799 Kč/hour, technique analysis 2499 Kč
+- Opava: individual lessons 799 Kč/hour, pair lessons 899 Kč/hour, group lessons from 999 Kč/hour, nonswimmer lessons 799 Kč/hour, technique analysis 2499 Kč
+- Olomouc: individual lessons 699 Kč/hour, pair lessons 799 Kč/hour, group lessons from 899 Kč/hour, nonswimmer lessons 799 Kč/hour, technique analysis 2499 Kč
+- Prostějov: individual lessons 699 Kč/hour, pair lessons 799 Kč/hour, group lessons from 899 Kč/hour, nonswimmer lessons 799 Kč/hour, technique analysis 2499 Kč
+- Mladá Boleslav: individual lessons 899 Kč/hour, pair lessons 999 Kč/hour, group lessons from 1199 Kč/hour, nonswimmer lessons 899 Kč/hour, technique analysis 2499 Kč
+- Plzeň: individual lessons 899 Kč/hour, pair lessons 999 Kč/hour, group lessons from 1199 Kč/hour, nonswimmer lessons 899 Kč/hour, technique analysis 2499 Kč
+- Online: consultations from 999 Kč/hour
 
 ## Booking
 
